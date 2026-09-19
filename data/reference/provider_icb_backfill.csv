@@ -1,0 +1,93 @@
+org_code,org_name,icb_code,icb_name,region,method,evidence,source
+8J094,Badger Ltd,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,earlier_mapping,ICB QHL in 2026-04/System-Mapping.xls,2026-04/System-Mapping.xls
+AC008,Rossendale Minor Injuries Unit,QE1,NHS Lancashire And South Cumbria Integrated Care Board,NORTH WEST,legacy_stp,STP Lancashire and South Cumbria,2026-08/Acute-Trust-Attribution-File.xls
+AF002,PURLEY MIU,QWE,NHS South West London Integrated Care Board,LONDON,legacy_stp,STP South West London,2026-08/Acute-Trust-Attribution-File.xls
+AF003,PARKWAY MIU,QWE,NHS South West London Integrated Care Board,LONDON,legacy_stp,STP South West London,2026-08/Acute-Trust-Attribution-File.xls
+ATQ02,WALSALL URGENT CARE CENTRE (COMMUNITY SITE),QUA,NHS Black Country Integrated Care Board,MIDLANDS,legacy_stp,STP The Black Country,2026-08/Acute-Trust-Attribution-File.xls
+AXG,Wiltshire Health & Care,QOX,"NHS Bath And North East Somerset, Swindon And Wiltshire Integrated Care Board",SOUTH WEST,earlier_mapping,ICB QOX in 2025-04/System-Mapping.xls,2025-04/System-Mapping.xls
+C82010,Oakham Medical Practice,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,earlier_mapping,ICB QK1 in 2023-08/Trust-ICB-Attribution-File.xls,2023-08/Trust-ICB-Attribution-File.xls
+E84068,THE RIDGEWAY SURGERY,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,legacy_stp,STP North West London,2026-08/Acute-Trust-Attribution-File.xls
+E84069,BELMONT HEALTH CENTRE,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,legacy_stp,STP North West London,2026-08/Acute-Trust-Attribution-File.xls
+F84747,THE BARKANTINE PRACTICE,QMF,NHS North East London Integrated Care Board,LONDON,legacy_stp,STP North East London,2026-08/Acute-Trust-Attribution-File.xls
+G82071,DR JM RIBCHESTER & PARTNERS,QKS,NHS Kent And Medway Integrated Care Board,SOUTH EAST,legacy_stp,STP Kent & Medway,2026-08/Acute-Trust-Attribution-File.xls
+M85813,BIRMINGHAM WIC,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,legacy_stp,STP Birmingham and Solihull,2026-08/Acute-Trust-Attribution-File.xls
+NAX,EAST COAST COMMUNITY HEALTHCARE C.I.C,T6Y0W,NHS Norfolk and Suffolk Integrated Care Board,EAST OF ENGLAND,legacy_stp,STP Suffolk and North East Essex,2026-08/Acute-Trust-Attribution-File.xls
+NDA55,WOKING WALK IN CENTRE,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Surrey Heartlands,2026-08/Acute-Trust-Attribution-File.xls
+NDA56,WEYBRIDGE WALK IN CENTRE,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Surrey Heartlands,2026-08/Acute-Trust-Attribution-File.xls
+NJS05,LOUGHBOROUGH URGENT CARE CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+NL7,Assura Vertis Urgent Care Centres (Birmingham),QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,earlier_mapping,ICB QHL in 2026-04/System-Mapping.xls,2026-04/System-Mapping.xls
+NLO01,SUNDERLAND GP OUT OF HOURS,QHM,NHS North East And North Cumbria Integrated Care Board,NORTH EAST AND YORKSHIRE,legacy_stp,"STP Northumberland, Tyne and Wear",2026-08/Acute-Trust-Attribution-File.xls
+NLO09,MELTON MOWBRAY URGENT CARE CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+NLO10,OADBY & WIGSTON URGENT CARE CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+NLO11,MARKET HARBOROUGH URGENT CARE CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+NLO12,OAKHAM URGENT CARE CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+NMH01,NORWICH PRACTICES LTD (CASTLE MALL),T6Y0W,NHS Norfolk and Suffolk Integrated Care Board,EAST OF ENGLAND,legacy_stp,STP Norfolk & Waveney,2026-08/Acute-Trust-Attribution-File.xls
+NNF18,Withernsea Hospital,QOQ,NHS Humber And North Yorkshire Integrated Care Board,NORTH EAST AND YORKSHIRE,legacy_stp,"STP Humber, Coast and Vale",2026-08/Acute-Trust-Attribution-File.xls
+NNF28,FREEDOM CENTRE,QOQ,NHS Humber And North Yorkshire Integrated Care Board,NORTH EAST AND YORKSHIRE,legacy_stp,"STP Humber, Coast and Vale",2026-08/Acute-Trust-Attribution-File.xls
+NNF70,Alfred Bean Hospital,QOQ,NHS Humber And North Yorkshire Integrated Care Board,NORTH EAST AND YORKSHIRE,legacy_stp,"STP Humber, Coast and Vale",2026-08/Acute-Trust-Attribution-File.xls
+NNF99,Hornsea Cottage Hospital,QOQ,NHS Humber And North Yorkshire Integrated Care Board,NORTH EAST AND YORKSHIRE,legacy_stp,"STP Humber, Coast and Vale",2026-08/Acute-Trust-Attribution-File.xls
+NQ106,FRYATT HOSPITAL,T6Y0W,NHS Norfolk and Suffolk Integrated Care Board,EAST OF ENGLAND,legacy_stp,STP Suffolk and North East Essex,2026-08/Acute-Trust-Attribution-File.xls
+NQ108,CLACTON HOSPITAL,T6Y0W,NHS Norfolk and Suffolk Integrated Care Board,EAST OF ENGLAND,legacy_stp,STP Suffolk and North East Essex,2026-08/Acute-Trust-Attribution-File.xls
+NQT10,Assura Reading Llp,S0E4D,NHS Thames Valley Integrated Care Board,SOUTH EAST,earlier_mapping,ICB QU9 in 2023-08/Trust-ICB-Attribution-File.xls,2023-08/Trust-ICB-Attribution-File.xls
+NQT51,Station Plaza Health Centre,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,earlier_mapping,ICB QNX in 2025-08/System-Mapping.xls,2025-08/System-Mapping.xls
+NQTE4,Summerfield Urgent Care Centre,QUA,NHS Black Country Integrated Care Board,MIDLANDS,earlier_mapping,ICB QUA in 2026-04/System-Mapping.xls,2026-04/System-Mapping.xls
+NR5,LIVEWELL SOUTHWEST,QJK,NHS Devon Integrated Care Board,SOUTH WEST,legacy_stp,STP Devon,2026-08/Acute-Trust-Attribution-File.xls
+NTPAL,GREET GENERAL PRACTICE & URGENT CARE CENTRE,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,legacy_stp,STP Birmingham and Solihull,2026-08/Acute-Trust-Attribution-File.xls
+NTV1M,WEYBRIDGE WALK IN CENTRE,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Surrey Heartlands,2026-08/Acute-Trust-Attribution-File.xls
+NX122,EDRIDGE ROAD COMMUNITY HEALTH CENTRE,QWE,NHS South West London Integrated Care Board,LONDON,legacy_stp,STP South West London,2026-08/Acute-Trust-Attribution-File.xls
+R1C,SOLENT NHS TRUST,QRL,NHS Hampshire And Isle Of Wight Integrated Care Board,SOUTH EAST,ods_successor,ODS successor RW1,ods_records.json
+R1G,TORBAY AND SOUTHERN DEVON HEALTH AND CARE NHS TRUST,QJK,NHS Devon Integrated Care Board,SOUTH WEST,ods_successor,ODS successor RA9,ods_records.json
+R1J,GLOUCESTERSHIRE CARE SERVICES NHS TRUST,QR1,NHS Gloucestershire Integrated Care Board,SOUTH WEST,ods_successor,ODS successor RTQ,ods_records.json
+RA3,WESTON AREA HEALTH NHS TRUST,QUY,"NHS Bristol, North Somerset And South Gloucestershire Integrated Care Board",SOUTH WEST,ods_successor,ODS successor RA7,ods_records.json
+RA4,Yeovil District Hospital NHS Foundation Trust,QSL,NHS Somerset Integrated Care Board,SOUTH WEST,ods_successor,ODS successor RH5,ods_records.json
+RAP,North Middlesex University Hospital NHS Trust,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,ods_successor,ODS successor RAL,ods_records.json
+RBA,TAUNTON AND SOMERSET NHS FOUNDATION TRUST,QSL,NHS Somerset Integrated Care Board,SOUTH WEST,ods_successor,ODS successor RH5,ods_records.json
+RBZ,NORTHERN DEVON HEALTHCARE NHS TRUST,QJK,NHS Devon Integrated Care Board,SOUTH WEST,ods_successor,ODS successor RH8,ods_records.json
+RC1,BEDFORD HOSPITAL NHS TRUST,S1Y5D,NHS Central East Integrated Care Board,EAST OF ENGLAND,ods_successor,ODS successor RC9,ods_records.json
+RD3,POOLE HOSPITAL NHS FOUNDATION TRUST,QVV,NHS Dorset Integrated Care Board,SOUTH WEST,ods_successor,ODS successor R0D,ods_records.json
+RDD,BASILDON AND THURROCK UNIVERSITY HOSPITALS NHS FOUNDATION TRUST,D7T5G,NHS Essex Integrated Care Board,EAST OF ENGLAND,ods_successor,ODS successor RAJ,ods_records.json
+RDZ,THE ROYAL BOURNEMOUTH AND CHRISTCHURCH HOSPITALS NHS FOUNDATION TRUST,QVV,NHS Dorset Integrated Care Board,SOUTH WEST,ods_successor,ODS successor R0D,ods_records.json
+RE9,SOUTH TYNESIDE NHS FOUNDATION TRUST,QHM,NHS North East And North Cumbria Integrated Care Board,NORTH EAST AND YORKSHIRE,ods_successor,ODS successor R0B,ods_records.json
+RFW,WEST MIDDLESEX UNIVERSITY HOSPITAL NHS TRUST,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,ods_successor,ODS successor RQM,ods_records.json
+RGQ,IPSWICH HOSPITAL NHS TRUST,T6Y0W,NHS Norfolk and Suffolk Integrated Care Board,EAST OF ENGLAND,ods_successor,ODS successor RDE,ods_records.json
+RJF,BURTON HOSPITALS NHS FOUNDATION TRUST,QJ2,NHS Derby And Derbyshire Integrated Care Board,MIDLANDS,ods_successor,ODS successor RTG,ods_records.json
+RLN,CITY HOSPITALS SUNDERLAND NHS FOUNDATION TRUST,QHM,NHS North East And North Cumbria Integrated Care Board,NORTH EAST AND YORKSHIRE,ods_successor,ODS successor R0B,ods_records.json
+RLU,BIRMINGHAM WOMEN'S NHS FOUNDATION TRUST,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,ods_successor,ODS successor RQ3,ods_records.json
+RM2,UNIVERSITY HOSPITAL OF SOUTH MANCHESTER NHS FOUNDATION TRUST,QOP,NHS Greater Manchester Integrated Care Board,NORTH WEST,ods_successor,ODS successor R0A,ods_records.json
+RNL,NORTH CUMBRIA UNIVERSITY HOSPITALS NHS TRUST,QHM,NHS North East And North Cumbria Integrated Care Board,NORTH EAST AND YORKSHIRE,ods_successor,ODS successor RNN,ods_records.json
+RQ6,ROYAL LIVERPOOL AND BROADGREEN UNIVERSITY HOSPITALS NHS TRUST,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,ods_successor,ODS successor REM,ods_records.json
+RQ8,MID ESSEX HOSPITAL SERVICES NHS TRUST,D7T5G,NHS Essex Integrated Care Board,EAST OF ENGLAND,ods_successor,ODS successor RAJ,ods_records.json
+RQQ,HINCHINGBROOKE HEALTH CARE NHS TRUST,S1Y5D,NHS Central East Integrated Care Board,EAST OF ENGLAND,ods_successor,ODS successor RGN,ods_records.json
+RR1,HEART OF ENGLAND NHS FOUNDATION TRUST,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,ods_successor,ODS successor RRK,ods_records.json
+RT2,PENNINE CARE NHS FOUNDATION TRUST,QOP,NHS Greater Manchester Integrated Care Board,NORTH WEST,legacy_stp,STP Greater Manchester,2026-08/Acute-Trust-Attribution-File.xls
+RT3,ROYAL BROMPTON & HAREFIELD NHS FOUNDATION TRUST,QKK,NHS South East London Integrated Care Board,LONDON,ods_successor,ODS successor RJ1,ods_records.json
+RTV,5 BOROUGHS PARTNERSHIP NHS FOUNDATION TRUST,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,ods_successor,ODS successor RW4,ods_records.json
+RVY,Southport And Ormskirk Hospital NHS Trust,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,ods_successor,ODS successor RBN,ods_records.json
+RW3,CENTRAL MANCHESTER UNIVERSITY HOSPITALS NHS FOUNDATION TRUST,QOP,NHS Greater Manchester Integrated Care Board,NORTH WEST,ods_successor,ODS successor R0A,ods_records.json
+RW6,PENNINE ACUTE HOSPITALS NHS TRUST,QOP,NHS Greater Manchester Integrated Care Board,NORTH WEST,ods_successor,"ODS successor R0A, RM3",ods_records.json
+RXH,BRIGHTON AND SUSSEX UNIVERSITY HOSPITALS NHS TRUST,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,ods_successor,ODS successor RYR,ods_records.json
+RY1,LIVERPOOL COMMUNITY HEALTH NHS TRUST,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,ods_successor,ODS successor RW4,ods_records.json
+Y00058,CARFAX HEALTH ENTERPRISE,QOX,"NHS Bath And North East Somerset, Swindon And Wiltshire Integrated Care Board",SOUTH WEST,legacy_stp,"STP Bath, Swindon and Wiltshire",2026-08/Acute-Trust-Attribution-File.xls
+Y00751,East Berks Primary Care Ooh(Wam),S0E4D,NHS Thames Valley Integrated Care Board,SOUTH EAST,earlier_mapping,ICB QNQ in 2025-08/System-Mapping.xls,2025-08/System-Mapping.xls
+Y02147,Urgent Care Centre (Qms),QKK,NHS South East London Integrated Care Board,LONDON,earlier_mapping,ICB QKK in 2025-08/System-Mapping.xls,2025-08/System-Mapping.xls
+Y02470,SSAFA CARE WALK-IN-CENTRE,QK1,"NHS Leicester, Leicestershire And Rutland Integrated Care Board",MIDLANDS,legacy_stp,"STP Leicester, Leicestershire and Rutland",2026-08/Acute-Trust-Attribution-File.xls
+Y02533,PARKFIELD (H) MINOR EMERGENCY,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,legacy_stp,STP Cheshire and Merseyside,2026-08/Acute-Trust-Attribution-File.xls
+Y02584,WALK IN CENTRE,QVV,NHS Dorset Integrated Care Board,SOUTH WEST,legacy_stp,STP Dorset,2026-08/Acute-Trust-Attribution-File.xls
+Y02615,South Birmingham GP Walk In Centre,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,earlier_mapping,ICB QHL in 2026-04/System-Mapping.xls,2026-04/System-Mapping.xls
+Y02652,NHS COVENTRY HEALTHCARE & WIC,QWU,NHS Coventry And Warwickshire Integrated Care Board,MIDLANDS,legacy_stp,STP Coventry and Warwickshire,2026-08/Acute-Trust-Attribution-File.xls
+Y02666,SALISBURY WALK-IN HC,QOX,"NHS Bath And North East Somerset, Swindon And Wiltshire Integrated Care Board",SOUTH WEST,legacy_stp,"STP Bath, Swindon and Wiltshire",2026-08/Acute-Trust-Attribution-File.xls
+Y02688,ASHFORD HEALTH CENTRE,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Surrey Heartlands,2026-08/Acute-Trust-Attribution-File.xls
+Y02692,BRENT GP ACCESS UNIT HARNESS-WEMBLEY,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,legacy_stp,STP North West London,2026-08/Acute-Trust-Attribution-File.xls
+Y02696,EDMONTON GP WALK IN CENTRE,Z9B2Z,NHS West and North London Integrated Care Board,LONDON,legacy_stp,STP North Central London,2026-08/Acute-Trust-Attribution-File.xls
+Y02816,Eastbourne Station Health Centre,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Sussex & East Surrey,2026-08/Acute-Trust-Attribution-File.xls
+Y02875,LINDLEY HOUSE HEALTH CENTRE,QOP,NHS Greater Manchester Integrated Care Board,NORTH WEST,legacy_stp,STP Greater Manchester,2026-08/Acute-Trust-Attribution-File.xls
+Y02961,SUMMERFIELD GP SURG & URGENT CARE CENTRE,QUA,NHS Black Country Integrated Care Board,MIDLANDS,legacy_stp,STP The Black Country,2026-08/Acute-Trust-Attribution-File.xls
+Y02973,ORCHARD VILLAGE WALK-IN-CENTRE,QMF,NHS North East London Integrated Care Board,LONDON,legacy_stp,STP North East London,2026-08/Acute-Trust-Attribution-File.xls
+Y03007,Erdington GP Health & Wellbeing Wic,QHL,NHS Birmingham And Solihull Integrated Care Board,MIDLANDS,earlier_mapping,ICB QHL in 2026-04/System-Mapping.xls,2026-04/System-Mapping.xls
+Y03047,ST ANDREWS WALK-IN CENTRE,QMF,NHS North East London Integrated Care Board,LONDON,legacy_stp,STP North East London,2026-08/Acute-Trust-Attribution-File.xls
+Y03051,HASTINGS MED P & WALKIN,S9B9J,NHS Surrey and Sussex Integrated Care Board,SOUTH EAST,legacy_stp,STP Sussex & East Surrey,2026-08/Acute-Trust-Attribution-File.xls
+Y03082,HAROLD WOOD WALK IN CENTRE,QMF,NHS North East London Integrated Care Board,LONDON,legacy_stp,STP North East London,2026-08/Acute-Trust-Attribution-File.xls
+Y03094,THE JUNCTION HC - UNREGISTERED PATIENTS,QWE,NHS South West London Integrated Care Board,LONDON,legacy_stp,STP South West London,2026-08/Acute-Trust-Attribution-File.xls
+Y03201,WALDRON - HURLEY UNREGISTERED PRACTICE,QKK,NHS South East London Integrated Care Board,LONDON,legacy_stp,STP South East London,2026-08/Acute-Trust-Attribution-File.xls
+Y03645,MORETON HEALTH MINOR INJURY,QYG,NHS Cheshire And Merseyside Integrated Care Board,NORTH WEST,legacy_stp,STP Cheshire and Merseyside,2026-08/Acute-Trust-Attribution-File.xls
+Y07709,Reading Urgent Care Centre,S0E4D,NHS Thames Valley Integrated Care Board,SOUTH EAST,earlier_mapping,ICB QU9 in 2025-06/System-Mapping.xls,2025-06/System-Mapping.xls

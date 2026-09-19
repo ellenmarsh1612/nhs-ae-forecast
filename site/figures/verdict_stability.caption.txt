@@ -1,0 +1,1 @@
+H3 with one winter origin left out at a time. Two of the three verdicts flip on a single origin: reconciliation stops helping ETS without October 2024, and stops hurting the headline model without December 2024. One winter cannot settle it. Source: results/H-confirmatory/tables/h3.loo.csv and h3.verdicts.csv.

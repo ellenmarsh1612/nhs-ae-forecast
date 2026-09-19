@@ -1,0 +1,121 @@
+split,origin_set,n_origins,level,mode,months,model,oyear,horizon,region,stat,value,n,origins,assessed,met,g1
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,1,assessable,cov90,0.9722222222222222,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,2,assessable,cov90,0.8888888888888888,36,12,True,True,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,3,assessable,cov90,0.8611111111111112,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,4,assessable,cov90,0.8611111111111112,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,5,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,6,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,1,assessable,cov90,0.8148148148148148,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,2,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,3,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,4,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,5,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,6,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,1,assessable,cov50,0.3888888888888889,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,2,assessable,cov50,0.4166666666666667,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,3,assessable,cov50,0.4444444444444444,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,4,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,5,assessable,cov50,0.5,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2024,6,assessable,cov50,0.5,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,1,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,2,assessable,cov50,0.6666666666666666,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,3,assessable,cov50,0.9259259259259259,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,4,assessable,cov50,0.8518518518518519,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,5,assessable,cov50,0.8148148148148148,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled,2025,6,assessable,cov50,0.8888888888888888,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,1,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,2,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,3,assessable,cov90,0.9722222222222222,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,4,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,5,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,6,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,1,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,2,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,3,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,4,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,5,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,6,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,1,assessable,cov50,0.4722222222222222,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,2,assessable,cov50,0.5,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,3,assessable,cov50,0.6666666666666666,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,4,assessable,cov50,0.6388888888888888,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,5,assessable,cov50,0.6944444444444444,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2024,6,assessable,cov50,0.8055555555555556,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,1,assessable,cov50,0.7777777777777778,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,2,assessable,cov50,0.8518518518518519,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,3,assessable,cov50,1.0,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,4,assessable,cov50,1.0,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,5,assessable,cov50,0.9629629629629629,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,ETS + pooled + MinT,2025,6,assessable,cov50,1.0,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,1,assessable,cov90,0.8888888888888888,36,12,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,2,assessable,cov90,0.8888888888888888,36,12,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,3,assessable,cov90,0.7777777777777778,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,4,assessable,cov90,0.8333333333333334,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,5,assessable,cov90,0.8055555555555556,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,6,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,1,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,2,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,3,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,4,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,5,assessable,cov90,0.9629629629629629,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,6,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,1,assessable,cov50,0.5555555555555556,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,2,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,3,assessable,cov50,0.4166666666666667,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,4,assessable,cov50,0.5277777777777778,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,5,assessable,cov50,0.4722222222222222,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2024,6,assessable,cov50,0.5277777777777778,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,1,assessable,cov50,0.37037037037037035,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,2,assessable,cov50,0.4444444444444444,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,3,assessable,cov50,0.7777777777777778,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,4,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,5,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled,2025,6,assessable,cov50,0.7037037037037037,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,1,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,2,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,3,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,4,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,5,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,6,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,1,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,2,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,3,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,4,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,5,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,6,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,1,assessable,cov50,0.5,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,2,assessable,cov50,0.5555555555555556,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,3,assessable,cov50,0.5277777777777778,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,4,assessable,cov50,0.6111111111111112,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,5,assessable,cov50,0.7777777777777778,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2024,6,assessable,cov50,0.8611111111111112,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,1,assessable,cov50,0.6296296296296297,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,2,assessable,cov50,0.8148148148148148,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,3,assessable,cov50,0.9629629629629629,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,4,assessable,cov50,0.8888888888888888,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,5,assessable,cov50,0.8518518518518519,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M1 + pooled + MinT,2025,6,assessable,cov50,0.7037037037037037,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,1,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,2,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,3,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,4,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,5,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,6,assessable,cov90,1.0,36,12,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,1,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,2,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,3,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,4,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,5,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,6,assessable,cov90,1.0,27,9,True,False,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,1,assessable,cov50,0.3333333333333333,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,2,assessable,cov50,0.5277777777777778,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,3,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,4,assessable,cov50,0.6111111111111112,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,5,assessable,cov50,0.75,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2024,6,assessable,cov50,0.8055555555555556,36,12,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,1,assessable,cov50,0.48148148148148145,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,2,assessable,cov50,0.7407407407407407,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,3,assessable,cov50,0.8888888888888888,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,4,assessable,cov50,1.0,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,5,assessable,cov50,0.9259259259259259,27,9,True,,as_issued
+conf,CONF21,21,england,asof,all,M2 frozen (m2d_corr),2025,6,assessable,cov50,1.0,27,9,True,,as_issued

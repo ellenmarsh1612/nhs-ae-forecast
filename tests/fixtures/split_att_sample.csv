@@ -1,0 +1,9 @@
+﻿"Monthly A&E Sitreps - A&E Activity"
+
+"Year:2017-18","Period Name:MARCH","Provider Org Name:<All>"
+
+"","","","Number of A&E Attendances",,,"Number of patients spending >4 hours in A&E from arrival to discharge, transfer or admission",,,"Number of patients spending >4 hours from decision to admit to admission",,,,"Number of patients spending >12 hours from decision to admit to admission",,,
+"","","","Type 1 Departments - Major A&E","Type 2 Departments - Single Specialty","Type 3 Departments - Other A&E/Minor Injury Unit","Type 1 Departments - Major A&E","Type 2 Departments - Single Specialty","Type 3 Departments - Other A&E/Minor Injury Unit","Type 1 Departments - Major A&E","Type 2 Departments - Single Specialty","Type 3 Departments - Other A&E/Minor Injury Unit","Sum","Type 1 Departments - Major A&E","Type 2 Departments - Single Specialty","Type 3 Departments - Other A&E/Minor Injury Unit","Total over 12 hour Trolley Waits"
+"RTH","SOUTH OF ENGLAND COMMISSIONING REGION","SYNTHETIC OXFORD TRUST",600,50,0,60,1,0,10,0,0,10,1,0,0,1
+"NXX","SOUTH OF ENGLAND COMMISSIONING REGION","SYNTHETIC UTC LTD",0,0,600,0,0,6,0,0,0,0,0,0,0,0
+"England","","",600,50,600,60,1,6,10,0,0,10,1,0,0,1

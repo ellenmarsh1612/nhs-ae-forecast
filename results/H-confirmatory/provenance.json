@@ -1,0 +1,76 @@
+{
+ "extra": {
+  "hash_commit": "f56db9e95a0f8b19694e82a7e9070826699a678b",
+  "inputs_source": "stage_h/inputs",
+  "lock_sha256": "fbb0311275776816cb1a388902a188e9c48aa1cf065ed4899433a718d62d70ed",
+  "mode": "run",
+  "pins_blob": "5dd573ca1faa2e08d3221b4935755f258476e052",
+  "start": "14202e21f6049927dda363c4cf634ca61e6fe62a",
+  "tables_written": 175,
+  "unseal_entry": {
+   "argv": [
+    "/Users/trin3615/Documents/NHS_forecast/merge-check/src/nhs_ae/evaluate/stage_h/__main__.py",
+    "run",
+    "--unseal-token-file",
+    "/Users/trin3615/.stage_h/conf-plan-v1.token",
+    "--jobs",
+    "8"
+   ],
+   "head": "f56db9e95a0f8b19694e82a7e9070826699a678b",
+   "origins": [
+    "2024-01-01",
+    "2025-09-01"
+   ],
+   "sealed_rows": 21,
+   "timestamp": "2026-09-15T18:04:53+00:00",
+   "token": "14202e21f6049927dda363c4cf634ca61e6fe62a"
+  }
+ },
+ "facts": {
+  "amendment": null,
+  "d7_slices": {
+   "2025-07": "5418189190e649557646a559a8a7094b380344c85166508699cce88593150a99",
+   "2025-08": "5418189190e649557646a559a8a7094b380344c85166508699cce88593150a99",
+   "2025-09": "5418189190e649557646a559a8a7094b380344c85166508699cce88593150a99"
+  },
+  "diff_stat": "",
+  "env_drift": {},
+  "gen_commit": "026c4202c3a168c8aed7333b62d71b9f9e182269",
+  "head": "14202e21f6049927dda363c4cf634ca61e6fe62a",
+  "inputs": 21,
+  "loadavg": [
+   2.81,
+   6.15,
+   6.0
+  ],
+  "log_oneline": "",
+  "manifest_sha": "0adeded94ccf43506c8f01158f3477ed426147f36b6c695682ee3f1ddc7ee293",
+  "n0": 0,
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "prior_lines": [],
+  "python": "3.13.12",
+  "quarantine": "data/processed/quarantine/pre-seal/backtest/forecasts.parquet",
+  "quarantine_sha": "6c369958a08ef4443de7a899b58bb107d599e8370ea1492f9089748d8e7f9614",
+  "reference_files": 4,
+  "stored_files": 501,
+  "tag_commit": "14202e21f6049927dda363c4cf634ca61e6fe62a",
+  "tag_object": "c4e72e0d6c82b55c45282a5f11bc7b83206e0e7d",
+  "vintages": {
+   "failures": [
+    "data/raw/2023-05-11/August-2022-AE-by-provider-revised-110523-1Gqhs.xls",
+    "data/raw/2023-05-11/December-2022-AE-by-provider-UScya-revised-110523.xls",
+    "data/raw/2023-05-11/October-2022-AE-by-provider-vM3Lk-revised-110523.xls",
+    "data/raw/2023-11-09/August-2023-AE-revised-91123-by-provider-H18X9.xls",
+    "data/raw/2023-11-09/September-2023-AE-revised-91123-by-provider-bnE2T.xls",
+    "data/raw/2025-09-11/October-2022-AE-by-provider-vM3Lm-revised-110523.xlsx",
+    "data/raw/2026-05-14/December-2025-AE-by-provider-revised-F5epgl.xls",
+    "data/raw/2026-06-11/November-2025-NEL-YTD-Growth-rates.xls"
+   ],
+   "manifest_sha": "0adeded94ccf43506c8f01158f3477ed426147f36b6c695682ee3f1ddc7ee293",
+   "path": "/Users/trin3615/Documents/NHS_forecast/merge-check/data/processed/stage_h/14202e21f6049927dda363c4cf634ca61e6fe62a/vintages/ae_monthly_all_vintages.parquet",
+   "row_hash": "db419ce45b6039a230fa9db4d0d7c5ac8022987ff210df913515ee75ee038b70",
+   "rows": 1072039
+  },
+  "witness_lines": 0
+ }
+}

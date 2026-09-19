@@ -1,0 +1,21 @@
+split,origin_set,n_origins,mode,months,horizons,metric,reference,g1,model,level,target,n_units,n_pairs,diff,diff_lo,diff_hi,rel,rel_lo,rel_hi,n_ref,n_tested,unpaired_ref,unpaired_tested,evaluable,note
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled,england,att_all,1.0,18.0,-1707.1418072652305,,,-0.014675453782405978,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled,england,att_type1,1.0,18.0,36181.1441798515,,,0.5600385650623239,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled,england,adm_via_ae,1.0,18.0,-407.1563440223945,,,-0.02795458340211865,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled,england,geometric mean,,,,,,0.14323031234875438,,,,,,,,
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled + MinT,england,att_all,1.0,18.0,6014.885704958098,,,0.05170699750536456,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled + MinT,england,att_type1,1.0,18.0,-3734.5847114241114,,,-0.05780667002936768,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled + MinT,england,adm_via_ae,1.0,18.0,-1099.263041535245,,,-0.07547331836188564,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,ETS + pooled + MinT,england,geometric mean,,,,,,-0.028778966116631888,,,,,,,,
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled,england,att_all,1.0,18.0,0.0,,,0.0,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled,england,att_type1,1.0,18.0,0.0,,,0.0,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled,england,adm_via_ae,1.0,18.0,0.0,,,0.0,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled,england,geometric mean,,,,,,0.0,,,,,,,,
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled + MinT,england,att_all,1.0,18.0,452.5022487246315,,,0.0038899380293611063,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled + MinT,england,att_type1,1.0,18.0,-5435.377487801052,,,-0.08413280115489852,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled + MinT,england,adm_via_ae,1.0,18.0,-744.8572370082038,,,-0.051140487088842224,,,18.0,18.0,0.0,0.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M1 + pooled + MinT,england,geometric mean,,,,,,-0.04447913638559409,,,,,,,,
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M2 frozen (m2d_corr),england,att_all,1.0,18.0,-20683.040636515885,,,-0.17780187073448794,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M2 frozen (m2d_corr),england,att_type1,1.0,18.0,-8698.631922965185,,,-0.13464387184459514,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M2 frozen (m2d_corr),england,adm_via_ae,1.0,18.0,-2584.651489743641,,,-0.17745727580134352,,,18.0,20.0,0.0,2.0,True,interval n/a (one series)
+dev,DEV,69,asof,winter,3,wis,M1 + pooled,as_issued,M2 frozen (m2d_corr),england,geometric mean,,,,,,-0.1635436656772391,,,,,,,,

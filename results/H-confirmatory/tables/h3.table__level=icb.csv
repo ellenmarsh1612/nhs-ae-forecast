@@ -1,0 +1,4 @@
+split,origin_set,n_origins,mode,g1,months,horizons,metric,base,level,n_series,rel,rel_lo,rel_hi,rel_att_all,rel_att_type1,rel_adm_via_ae,rel_outside_covid,icb_improves,provider_within_2pct,H3,n_pairs,n_ref,n_tested,unpaired_ref,unpaired_tested,evaluable,note
+conf,W5,5,asof,as_issued,winter,3,wis,ETS,icb,36,-0.06097542208864526,-0.09491838661079258,-0.021976946266004375,-0.030224665473092882,-0.1325881823190641,-0.001430073766814477,-0.06097542208864526,True,True,holds,540,540,540,0,0,True,
+conf,W5,5,asof,as_issued,winter,3,wis,STL+ARIMA,icb,36,0.07083020163018561,0.026583606334021938,0.11855853820840177,0.03157382768355532,0.12718089176210157,0.0949440346281909,0.07083020163018561,False,False,fails,540,540,540,0,0,True,
+conf,W5,5,asof,as_issued,winter,3,wis,M1,icb,36,-0.016862511255476442,-0.048248769520395314,0.01961929971639554,-0.11665446127737888,0.1301747679993548,0.08355990027728732,-0.016862511255476442,False,False,fails,540,540,540,0,0,True,

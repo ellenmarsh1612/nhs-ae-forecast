@@ -1,0 +1,4 @@
+model,level,failed,failed_dev_origins,failed_new_origins
+ETS,provider,318,318,0
+STL+ARIMA,provider,116,116,0
+M1,provider,0,0,0

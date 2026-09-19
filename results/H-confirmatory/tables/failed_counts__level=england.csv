@@ -1,0 +1,4 @@
+model,level,failed,failed_dev_origins,failed_new_origins
+ETS,england,7,7,0
+STL+ARIMA,england,0,0,0
+M1,england,0,0,0

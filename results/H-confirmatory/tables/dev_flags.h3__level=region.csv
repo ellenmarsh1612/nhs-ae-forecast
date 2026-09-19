@@ -1,0 +1,4 @@
+split,origin_set,n_origins,months,horizons,g1,mode,metric,base,level,stat,conf,dev_min,dev_max,n_seasons,outside,reason
+conf,W5,5,winter,3,as_issued,asof,wis,ETS,region,rel,-0.0878784629441457,-0.03352884000800216,0.24764462133123732,5,True,
+conf,W5,5,winter,3,as_issued,asof,wis,STL+ARIMA,region,rel,0.11609302654253062,-0.09053108394399711,0.22664184718831915,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M1,region,rel,0.06929901440102859,-0.23539527055445786,0.20880319230571986,5,False,

@@ -1,0 +1,4 @@
+split,origin_set,n_origins,mode,g1,months,horizons,metric,base,H3,icb_rel_hi,provider_rel,fragile,flips,loo_n,loo_icb_rel_hi_min,loo_icb_rel_hi_max,icb_straddles_0,loo_provider_rel_min,loo_provider_rel_max,provider_straddles_2pct
+conf,W5,5,asof,failed_dropped,winter,3,wis,ETS,holds,-0.021976946266004375,-0.004880958047602801,True,[Timestamp('2024-10-01 00:00:00')],5,-0.05270501637212267,0.03829952881573314,True,-0.018918842173508366,0.010599570311130124,False
+conf,W5,5,asof,failed_dropped,winter,3,wis,STL+ARIMA,fails,0.11855853820840177,0.060210912466977184,False,[],5,0.07391336595591334,0.21031704355578587,False,0.032567254910210286,0.07924033375376172,False
+conf,W5,5,asof,failed_dropped,winter,3,wis,M1,fails,0.01961929971639554,0.05165830770798552,True,[Timestamp('2024-12-01 00:00:00')],5,-0.10765251131826115,0.18829105346168895,True,-0.0013514759106237895,0.07224886212942239,True

@@ -1,0 +1,183 @@
+Metadata-Version: 2.4
+Name: nhs-ae-forecast
+Version: 0.1.0
+Summary: Probabilistic, hierarchical, revision-aware forecasts of NHS England A&E attendances and emergency admissions, with a winter bed-escalation decision layer.
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.1
+Requires-Dist: pyarrow>=14
+Requires-Dist: requests>=2.31
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: lxml>=5.0
+Provides-Extra: xls
+Requires-Dist: xlrd>=2.0; extra == "xls"
+Requires-Dist: openpyxl>=3.1; extra == "xls"
+Provides-Extra: stats
+Requires-Dist: statsmodels>=0.14; extra == "stats"
+Provides-Extra: gbm
+Requires-Dist: lightgbm>=4.0; extra == "gbm"
+Provides-Extra: models
+Requires-Dist: lightgbm>=4.0; extra == "models"
+Requires-Dist: statsmodels>=0.14; extra == "models"
+Requires-Dist: pymc>=5.10; extra == "models"
+Requires-Dist: arviz>=0.17; extra == "models"
+Requires-Dist: nutpie>=0.13; extra == "models"
+Provides-Extra: app
+Requires-Dist: streamlit>=1.30; extra == "app"
+Requires-Dist: plotly>=5.18; extra == "app"
+Provides-Extra: plots
+Requires-Dist: matplotlib>=3.8; extra == "plots"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: statsmodels>=0.14; extra == "dev"
+Requires-Dist: lightgbm>=4.0; extra == "dev"
+Requires-Dist: matplotlib>=3.8; extra == "dev"
+Dynamic: license-file
+
+# nhs-ae-forecast
+
+**Does backtesting on revised official statistics overstate forecast skill?** For NHS
+England's monthly A&E series the answer, measured here, is no: with every version of
+every file since 2015 recovered, forecasts trained on the data as first published score
+within 0.6% of forecasts trained on the revised data, for four models and three targets,
+and the model ranking does not change. Late submissions matter more than revisions, and
+neither matters much. That is a method (a vintage archive and an as-of harness) plus a
+calibrated expectation that transfers to any series revised after publication.
+
+Around that result: probabilistic, hierarchical forecasts of A&E attendances and
+emergency admissions at provider level, and a winter bed-escalation decision layer that
+turns them into something a planning lead can act on.
+
+The parts that consulting clients actually pay for and portfolios usually skip:
+
+- **Vintage archive.** NHS England revises monthly files twice a year. Every file
+  version is stored under the date it became current, so backtests can use only what
+  was known at forecast time. Versions from before this archive existed are recovered
+  from the Internet Archive's captures of the NHS England year pages (`recover`).
+  Pre-registered hypothesis H4 tests how much the usual practice (backtesting on final
+  data) overstates skill.
+- **Baselines first.** Seasonal naive, ETS and STL+ARIMA are the bar; LightGBM and a
+  hierarchical PyMC model have to beat them in as-of mode.
+- **Coherent uncertainty.** Quantile forecasts reconciled provider → ICB → region →
+  England; calibration reported, not assumed.
+- **A decision, in beds.** Admissions forecast → bed-days → probability of exceeding 92%
+  occupancy → escalation beds required, per trust, per winter month.
+- **Runs without me.** Monthly GitHub Action, scorecard page, handover pack.
+
+Status: **week 1 — ingestion and vintage archive.** See `docs/scope.md` for the plan and
+`docs/preregistration.md` for what will be tested and how.
+
+## Quick start
+
+```bash
+git clone <this repo> && cd nhs-ae-forecast
+make install                                  # pip install -e ".[dev,xls,stats,gbm]"
+make test                                     # 82 unit tests, no network needed
+
+nhs-ae-ingest discover --years 2026-27        # list the monthly files on the NHS England page
+nhs-ae-ingest run                             # archive today's vintage of every year, build parquet
+nhs-ae-ingest recover                         # recover historical vintages via the Internet Archive
+nhs-ae-ingest coverage --origins 2019-09 2025-09   # origins lacking an as-of version (Appendix A)
+nhs-ae-ingest build                           # rebuild parquet from the archive, offline
+nhs-ae-backtest run --models b0 b1 b2 m1 --jobs 8   # rolling-origin backtest, as-of and final modes
+nhs-ae-backtest audit                         # what revisions changed; as-of vs final training data
+```
+
+After `run`, you have:
+
+```
+data/raw/2026-08-13/July-2026-CSV-Trf28h.csv     # raw file, as published, immutable
+data/raw/manifest.jsonl                          # one line per version: url, period, sha256,
+                                                 #   available_from (+ how it was estimated)
+data/processed/ae_monthly_all_vintages.parquet   # tidy long table, every vintage
+data/processed/ae_monthly_latest.parquet         # most recent value per (period, org, metric)
+```
+
+Tidy long schema: `period, org_code, parent_org, org_name, metric, value, is_total,
+source_file, snapshot, revised, revised_on, sha256`. Metric names are canonical
+(`att_type1`, `adm_via_ae_type1`, …; full list in `src/nhs_ae/config.py`). The parser
+reads all three physical layouts NHS England has used: the modern CSV (2018-04 on), the
+workbooks with a title block and a two-row header (the only format before 2018-04, and
+the XLS copy of every month since), and the February/March 2018 split CSVs. Header
+drift is handled by regex rules on the joined group + sub-header text; derivable
+columns (totals, percentages) are dropped, anything unrecognised is kept as
+`unmapped__<name>` and logged, and a file with no recognised metric at all is rejected
+(NHS England once linked a growth-rates workbook as a monthly file). Files the
+reader cannot open are listed in `data/processed/parse_failures.csv`.
+
+## Repository layout
+
+```
+src/nhs_ae/
+  config.py         source URLs, canonical schema, header-mapping rules
+  ingest/           discover → download (vintage archive) → recover (history) → parse → lineage; CLI
+  features/         calendar, weather, surveillance, regimes, hierarchy   (weeks 3–4)
+  features/hierarchy.py  provider → current region → England (ICB needs the mapping file)
+  models/           base.py contract; B0 ✔ B1 ETS ✔ B2 STL+ARIMA ✔ M1 LightGBM+conformal ✔; PyMC to come
+  reconcile/        MinT and sample-path reconciliation                    (week 5)
+  evaluate/         as-of loader ✔, metrics ✔, rolling-origin harness ✔, CLI ✔
+  monitor/          error tracking, drift triggers                         (week 7)
+  decide/           bed-days, breach probability, escalation beds         (week 6)
+  app/              Streamlit                                              (week 7)
+docs/
+  scope.md          what is in and out, data sources, mess handling, plan, risks
+  preregistration.md hypotheses, metrics, splits, decision rules — frozen by tag
+  handover.md       operational runbook (skeleton, completed week 7)
+  memo_template.md  one-page output for a winter-planning lead
+  results.md        pre-registered tests as they are evaluated (H1, H2, H4 so far)
+tests/              unit tests on a SYNTHETIC fixture (no real NHS numbers)
+.github/workflows/  monthly ingest on the second-Thursday window
+data/raw/           committed vintage archive (CSV only; XLS ignored)
+```
+
+Each stage's `__init__.py` documents what it will contain and the rule it must obey
+(for example, features may only use values published on or before the forecast origin).
+
+## Backtesting
+
+`nhs-ae-backtest run` walks monthly origins (2019-09 to 2025-09 by default). At origin
+month *M* the forecaster is taken to run on the second Thursday of *M*, just after the
+file for *M−1* is published, so training data end at *M−1* and horizon *h* targets
+*M−1+h*: an October origin forecasts December to March at horizons 3 to 6. As-of mode
+uses the archived version of every period that was current on that day; final mode uses
+the latest revision of the same periods. Both modes run through one code path, every
+model writes the same long quantile table, and scores go to `data/processed/backtest/`.
+
+## Data
+
+NHS England, *A&E Attendances and Emergency Admissions*, monthly provider-level files,
+June 2015 onward, Open Government Licence v3.0. Files are published on the second
+Thursday of each month and revised in May and November. Provider-to-ICB mapping is
+published with each release; trust mergers are resolved via the ODS organisation API.
+
+Revisions get a new URL and the original stays on the server (verified 2017–2024), so
+`recover` rebuilds the version history from Internet Archive captures of the year pages
+and fetches the files themselves from NHS England. Files from 2015-16 to 2018-19 *were*
+replaced in place, so for those the Archive's own file captures are the only source of
+pre-revision bytes; `coverage` reports what could not be reconstructed.
+
+Known issues the pipeline is built around: missing providers each month (stored as NaN,
+never zero), revisions (vintage archive), Type 3 → UTC reclassification and
+booked appointments from August 2020 (regime flags), fourteen field-testing trusts
+2019–23, the COVID break, and a May 2025 errata on provider-level admissions.
+
+## Roadmap
+
+| Week | Milestone |
+|---|---|
+| 1 | Ingestion, vintage archive, lineage, historical vintage recovery ✔ |
+| 2 | As-of loader, harness, metrics, B0/B1/B2 ✔; revision audit; freeze `prereg-v1` |
+| 3–4 | LightGBM ✔ (2026-09-09); PyMC time-boxed |
+| 5 | Reconciliation, cold-start evaluation |
+| 6 | Decision layer, memo |
+| 7 | Monitoring, forecast Action, Pages scorecard, Streamlit, handover |
+| 8 | Write-up; first live forecast for Dec 2026–Mar 2027 by 31 Oct 2026 |
+| Phase 2 | Allocation of escalation beds across trusts (stochastic programme); winter SitRep at daily resolution |
+
+## Licence
+
+Code MIT. Data OGL v3.0 (© NHS England). Not affiliated with NHS England.

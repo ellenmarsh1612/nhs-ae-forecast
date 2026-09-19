@@ -1,0 +1,1 @@
+Coverage of the 90% interval on the sealed window, provider level, 19 origins: the calibrated forecast holds the registered 85–95% tolerance at every horizon; the same forecasts without the calibration layer cover 68–75%. Source: results/H-confirmatory/tables/primary.table.csv and headline.by_horizon.csv.

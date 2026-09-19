@@ -1,0 +1,3 @@
+split,origin_set,oyear,fits,rhat_max_median,ess_bulk_min_median,divergences_median,divergences_total
+conf,CONF19,2024,12.0,1.047667490415791,78.07404292147504,0.0,0.0
+conf,CONF19,2025,7.0,1.03921667900137,92.578090959642,0.0,0.0

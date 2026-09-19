@@ -1,0 +1,1744 @@
+[
+  {
+    "id": "coverage_target",
+    "value": 0.9,
+    "unit": "proportion",
+    "description": "Nominal coverage of the 90% central prediction interval: the share of outturns that should fall inside it.",
+    "source_path": "docs/preregistration.md:109",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "coverage_tolerance",
+    "value": [
+      0.85,
+      0.95
+    ],
+    "unit": "proportion",
+    "description": "Registered tolerance band for 90% coverage. A clause is confirmed if coverage is inside this band at every horizon and refuted if it is outside at any.",
+    "source_path": "docs/stage_h_design.md:323",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "calibrated_model",
+    "value": "m1_lightgbm_v3_raw+pooled",
+    "unit": "model key",
+    "description": "The model behind every 'calibrated' coverage figure: LightGBM trained per horizon (M1 v3 raw), with pooled conformal calibration and the G1 all-zero-forecast marking, scored at provider level in as-of mode.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "calibration_layer",
+    "value": "conformalised on a 12-month calibration window",
+    "unit": "definition",
+    "description": "The calibration layer, quoted from the pre-registration's model table: split conformal on a rolling window of recent errors.",
+    "source_path": "docs/preregistration.md:73",
+    "label": "confirmatory",
+    "caveat": "'Pooled' means the conformal scores are pooled across providers rather than taken per series (docs/results.md, Stage D: 'per-series rather than pooled conformal scores'). The layer is applied to the quantile forecasts, not refitted per horizon."
+  },
+  {
+    "id": "calibrated_model_structure",
+    "value": "per-horizon models as in v2 but with the original 12-month level.",
+    "unit": "definition",
+    "description": "The learner under the calibration layer, quoted from its registration.",
+    "source_path": "docs/preregistration.md:177",
+    "label": "confirmatory",
+    "caveat": "M1 v3: one LightGBM per horizon, with the original 12-month level feature."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h1",
+    "value": 0.874868,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 1, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.851407–0.905655."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h2",
+    "value": 0.883324,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 2, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.8647–0.909166."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h3",
+    "value": 0.88687,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 3, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.862103–0.916908."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h4",
+    "value": 0.895937,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 4, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.880513–0.919826."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h5",
+    "value": 0.894749,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 5, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.875151–0.925262."
+  },
+  {
+    "id": "coverage_by_horizon_calibrated_h6",
+    "value": 0.902557,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the calibrated forecast at horizon 6, provider level, 19 origins.",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.884063–0.92461."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h1",
+    "value": 0.7495,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 1.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.712767–0.802134. Column point_raw."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h2",
+    "value": 0.719505,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 2.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.678251–0.771789. Column point_raw."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h3",
+    "value": 0.718768,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 3.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.675711–0.769062. Column point_raw."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h4",
+    "value": 0.708127,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 4.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.670244–0.748795. Column point_raw."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h5",
+    "value": 0.693236,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 5.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.655861–0.743042. Column point_raw."
+  },
+  {
+    "id": "coverage_by_horizon_uncalibrated_h6",
+    "value": 0.682572,
+    "unit": "proportion",
+    "description": "The same forecasts without the calibration layer, at horizon 6.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.646129–0.719014. Column point_raw."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h1",
+    "value": 0.900785,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 1 (9 origins, 4838 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h2",
+    "value": 0.881328,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 2 (9 origins, 4820 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h3",
+    "value": 0.900125,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 3 (9 origins, 4796 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h4",
+    "value": 0.879195,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 4 (9 origins, 4768 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h5",
+    "value": 0.901791,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 5 (9 origins, 4745 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2018_h6",
+    "value": 0.900909,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2018, horizon 6 (9 origins, 4733 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h1",
+    "value": 0.858388,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 1 (12 origins, 6080 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h2",
+    "value": 0.879068,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 2 (12 origins, 6053 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h3",
+    "value": 0.859064,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 3 (12 origins, 6024 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h4",
+    "value": 0.880575,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 4 (11 origins, 5493 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h5",
+    "value": 0.87231,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 5 (10 origins, 4973 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2019_h6",
+    "value": 0.875279,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2019, horizon 6 (9 origins, 4474 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h1",
+    "value": 0.909416,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 1 (6 origins, 2793 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h2",
+    "value": 0.936804,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 2 (6 origins, 2785 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h3",
+    "value": 0.947482,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 3 (6 origins, 2780 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h4",
+    "value": 0.935925,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 4 (6 origins, 2778 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h5",
+    "value": 0.932203,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 5 (6 origins, 2773 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2021_h6",
+    "value": 0.921547,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2021, horizon 6 (6 origins, 2766 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h1",
+    "value": 0.895471,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 1 (12 origins, 5520 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h2",
+    "value": 0.909074,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 2 (12 origins, 5510 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h3",
+    "value": 0.928727,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 3 (12 origins, 5500 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h4",
+    "value": 0.938616,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 4 (12 origins, 5490 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h5",
+    "value": 0.946188,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 5 (12 origins, 5482 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2022_h6",
+    "value": 0.946129,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2022, horizon 6 (12 origins, 5476 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h1",
+    "value": 0.901273,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 1 (12 origins, 5500 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h2",
+    "value": 0.922421,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 2 (11 origins, 5040 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h3",
+    "value": 0.917704,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 3 (10 origins, 4581 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h4",
+    "value": 0.912179,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 4 (9 origins, 4122 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h5",
+    "value": 0.903736,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 5 (8 origins, 3667 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2023_h6",
+    "value": 0.907846,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model, origin year 2023, horizon 6 (7 origins, 3212 scored rows).",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": "Development window, 69 origins from 2018-04 to 2023-12. 2020 and 2021 cover the COVID collapse and are the widest cells."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_omitted_from_confirmatory",
+    "value": "2018, 2019, 2021, 2022 and 2023, each with at least 6 origins",
+    "unit": "registered years",
+    "description": "Why no 2020 cell appears in the confirmatory run's development coverage table: these are the origin-years the design registered as assessable.",
+    "source_path": "docs/stage_h_design.md:424",
+    "label": "confirmatory",
+    "caveat": "2020 is not among them. The 2020 figures below come from the Stage D calibration table, which keeps the COVID cells and marks them unassessed."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h1",
+    "value": 0.80747,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 1 (10 origins, 4846 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h2",
+    "value": 0.780139,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 2 (11 origins, 5317 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h3",
+    "value": 0.734348,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 3 (12 origins, 5782 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h4",
+    "value": 0.741997,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 4 (12 origins, 5748 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h5",
+    "value": 0.759169,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 5 (12 origins, 5726 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "coverage_by_year_dev_2020_h6",
+    "value": 0.790082,
+    "unit": "proportion",
+    "description": "Development-window coverage of the calibrated model in 2020, horizon 6 (12 origins, 5707 scored rows), COVID window.",
+    "source_path": "results/D-calibration/coverage_by_horizon_year.csv",
+    "label": "development",
+    "caveat": "Marked assessed=False: 2020 is not a registered assessable origin-year, and these cells span the COVID collapse. Shown because the year was asked for; it decides nothing, and the site should not quote it beside the confirmatory cells without saying which window it belongs to."
+  },
+  {
+    "id": "h1_bar",
+    "value": -0.15,
+    "unit": "relative change",
+    "description": "Pre-registered bar for H1: the error reduction the model must beat, with the 95% interval entirely beyond it.",
+    "source_path": "docs/preregistration.md:105",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "h1_winter_origins",
+    "value": 5,
+    "unit": "count",
+    "description": "Number of winter forecast origins behind every winter statistic: 2024-01, 2024-10, 2024-11, 2024-12 and 2025-01. At horizon 3 their targets are March 2024 and December 2024 to March 2025.",
+    "source_path": "docs/stage_h_design.md:269",
+    "label": "confirmatory",
+    "caveat": "One complete winter plus one March. Bootstraps resample providers within that winter, so they do not capture between-winter variation."
+  },
+  {
+    "id": "h1_rel_att_all",
+    "value": -0.476016,
+    "unit": "relative change",
+    "description": "H1, all-types attendances: point estimate of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_lo_att_all",
+    "value": -0.525226,
+    "unit": "relative change",
+    "description": "H1, all-types attendances: rel_lo of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_hi_att_all",
+    "value": -0.421175,
+    "unit": "relative change",
+    "description": "H1, all-types attendances: rel_hi of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_att_type1",
+    "value": -0.447761,
+    "unit": "relative change",
+    "description": "H1, Type 1 attendances: point estimate of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_lo_att_type1",
+    "value": -0.500844,
+    "unit": "relative change",
+    "description": "H1, Type 1 attendances: rel_lo of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_hi_att_type1",
+    "value": -0.394136,
+    "unit": "relative change",
+    "description": "H1, Type 1 attendances: rel_hi of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_adm_via_ae",
+    "value": -0.38366,
+    "unit": "relative change",
+    "description": "H1, emergency admissions via A&E: point estimate of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_lo_adm_via_ae",
+    "value": -0.445873,
+    "unit": "relative change",
+    "description": "H1, emergency admissions via A&E: rel_lo of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_rel_hi_adm_via_ae",
+    "value": -0.3165,
+    "unit": "relative change",
+    "description": "H1, emergency admissions via A&E: rel_hi of the relative change in MASE against the seasonal-naive baseline, horizon 3, winter, provider level.",
+    "source_path": "results/H-confirmatory/tables/h1.table.csv",
+    "label": "confirmatory",
+    "caveat": "Verdict confirmed; fragile=False."
+  },
+  {
+    "id": "h1_verdict",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 overall verdict: confirmed only if all three targets clear the bar.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "confirmatory",
+    "caveat": "fragile=False; flips=[]."
+  },
+  {
+    "id": "h1_loo_att_all_drop_2024-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for all-types attendances with origin 2024-01 left out (rel -0.51078, upper end -0.429241).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_type1_drop_2024-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for Type 1 attendances with origin 2024-01 left out (rel -0.458363, upper end -0.384681).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_adm_via_ae_drop_2024-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for emergency admissions via A&E with origin 2024-01 left out (rel -0.460293, upper end -0.381964).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_all_drop_2024-10",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for all-types attendances with origin 2024-10 left out (rel -0.488244, upper end -0.433081).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_type1_drop_2024-10",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for Type 1 attendances with origin 2024-10 left out (rel -0.459055, upper end -0.40424).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_adm_via_ae_drop_2024-10",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for emergency admissions via A&E with origin 2024-10 left out (rel -0.376461, upper end -0.312156).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_all_drop_2024-11",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for all-types attendances with origin 2024-11 left out (rel -0.48035, upper end -0.433075).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_type1_drop_2024-11",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for Type 1 attendances with origin 2024-11 left out (rel -0.467826, upper end -0.418513).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_adm_via_ae_drop_2024-11",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for emergency admissions via A&E with origin 2024-11 left out (rel -0.363273, upper end -0.299967).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_all_drop_2024-12",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for all-types attendances with origin 2024-12 left out (rel -0.432508, upper end -0.378018).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_type1_drop_2024-12",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for Type 1 attendances with origin 2024-12 left out (rel -0.401348, upper end -0.339835).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_adm_via_ae_drop_2024-12",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for emergency admissions via A&E with origin 2024-12 left out (rel -0.34953, upper end -0.280447).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_all_drop_2025-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for all-types attendances with origin 2025-01 left out (rel -0.469371, upper end -0.413312).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_att_type1_drop_2025-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for Type 1 attendances with origin 2025-01 left out (rel -0.45113, upper end -0.396123).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "h1_loo_adm_via_ae_drop_2025-01",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H1 for emergency admissions via A&E with origin 2025-01 left out (rel -0.365481, upper end -0.294503).",
+    "source_path": "results/H-confirmatory/tables/h1.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Leave-one-origin-out over the five winter origins; the verdict holds in all five."
+  },
+  {
+    "id": "sealed_wis_by_model_by_target",
+    "value": "NOT FOUND",
+    "unit": "",
+    "description": "A sealed-window WIS table by model and target, as the criterion that selected the published model.",
+    "source_path": "",
+    "label": "",
+    "caveat": "No such table exists, and no sealed-window statistic selected the published model. The sealed run reports WIS only as ratios against M1 + pooled at aggregate levels (results/H-confirmatory/tables/f2.wis__level=*.csv) and as the H3 reconciliation comparison; the choice of published model was made on the development window before the seal was opened, by the rule quoted in live_model_selection_rule.",
+    "searched_paths": [
+      "results/H-confirmatory/tables",
+      "results/H-confirmatory/verdicts.json",
+      "docs/confirmatory_plan.md",
+      "docs/stage_h_design.md"
+    ]
+  },
+  {
+    "id": "live_model_selection_rule",
+    "value": "**D5 = (b): the live forecast is uncalibrated raw ETS, and Stage H is off the live critical path.** Under D1 = exclude, the pre-committed condition (`docs/d1_precommitments.md` (a)) made raw ETS the live model. Its intervals are ETS's own simulated intervals (B1, seed 0 as corrected in the amendment above): there is no conformal step and no calibration pool, so no forecast error is computed from a sealed row, and the live forecast built from the 2026-10-08 release does not wait for Stage H. This supersedes the plan's recommendation, D5 (a): a calibrated M1 + pooled + G1 live forecast, which needs Stage H first. Its fallback (c) becomes moot. Stage H still runs for the confirmatory claims. The calibration selected at STOP 4 (M1 + pooled + G1) remains the primary comparison on CONF, now as the project's recommended remedy rather than the shipped forecast, and raw ETS's own CONF coverage is reported in the descriptive headline. Recording the live model closes STOP 4's open question; STOP 7 and STOP 8 remain to be recorded. *Known cost, to be stated with the published forecast:* raw ETS's intervals are uncalibrated. On DEV at ICB level over 69 origins, outside COVID, its 90% coverage is 0.889–0.930 by horizon (0.910 pooled) and its 50% coverage is 0.599, but its upper tail fails: 6.7% of outturns fall above its q0.95 against 5% expected, and its top PIT bin is 1.74×. Over all months, COVID included, its 90% coverage is 0.78–0.81 (`results/E-m2f-69/`). Adding a conformal step to the live path later would reinstate the sealed-pool dependency.",
+    "unit": "rule text",
+    "description": "The registered rule that made raw ETS the published model, quoted verbatim. It was applied to a development-window re-run (D1), and no sealed row informed it.",
+    "source_path": "docs/preregistration.md:227",
+    "label": "confirmatory",
+    "caveat": "The pre-commitment it applies is docs/d1_precommitments.md, committed before the re-run it decides."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h1",
+    "value": 0.976608,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 1 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.962963–0.987329. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h2",
+    "value": 0.974172,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 2 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.955166–0.987329. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h3",
+    "value": 0.977583,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 3 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.957602–0.991715. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h4",
+    "value": 0.977583,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 4 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.955653–0.994152. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h5",
+    "value": 0.981481,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 5 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.963938–0.995127. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_icb_h6",
+    "value": 0.982456,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the published model (raw ETS) at ICB level, horizon 6 — the level the live forecast issues.",
+    "source_path": "results/H-confirmatory/tables/headline.icb_raw_ets.as_issued.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.967824–0.995614. Over-covers: the intervals are wider than nominal. Under P12 any change to the live model made because of this is recorded as CONF-informed."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h1",
+    "value": 0.951062,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 1.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h2",
+    "value": 0.950412,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 2.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h3",
+    "value": 0.954437,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 3.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h4",
+    "value": 0.960977,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 4.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h5",
+    "value": 0.966571,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 5.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "ets_sealed_coverage_provider_h6",
+    "value": 0.968218,
+    "unit": "proportion",
+    "description": "The same model at provider level, horizon 6.",
+    "source_path": "results/H-confirmatory/tables/headline.by_horizon.csv",
+    "label": "confirmatory",
+    "caveat": "Column point_raw."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h1",
+    "value": 0.969786,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 1.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.930787–0.99269."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h2",
+    "value": 0.99269,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 2.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.982943–0.998051."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h3",
+    "value": 0.988791,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 3.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.975634–0.997076."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h4",
+    "value": 0.992203,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 4.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.979033–0.999025."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h5",
+    "value": 0.990253,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 5.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.976121–0.998538."
+  },
+  {
+    "id": "hierarchical_bayes_sealed_coverage_h6",
+    "value": 0.992203,
+    "unit": "proportion",
+    "description": "Sealed-window 90% interval coverage of the frozen hierarchical Bayesian model (m2d_corr), its own posterior intervals, ICB level, horizon 6.",
+    "source_path": "results/H-confirmatory/tables/h2_m2.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.980507–0.999025."
+  },
+  {
+    "id": "hierarchical_bayes_verdict",
+    "value": "refuted",
+    "unit": "verdict",
+    "description": "H2's M2 clause: refuted. The registered prediction was that these intervals would hold the tolerance band; they miss it at every horizon by being too wide.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "confirmatory",
+    "caveat": "All 21 fits completed and 0 failed, so the clause was evaluable."
+  },
+  {
+    "id": "conformal_m1_verdict",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H2's M1 clause: confirmed. Default M1's own conformal intervals under-cover.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "confirmatory",
+    "caveat": "Direction is named, not decisive; the clause turns on being outside the band at some horizon in 4-6."
+  },
+  {
+    "id": "h4_what_was_varied",
+    "value": "training data vintage only; the outturn scored against is the same in both modes",
+    "unit": "definition",
+    "description": "What the as-of/final comparison varies. As-of mode trains on the figures published at the origin; final mode trains on today's revised figures. Both are scored against the same outturn, so the comparison isolates the training vintage.",
+    "source_path": "src/nhs_ae/evaluate/asof.py",
+    "label": "confirmatory",
+    "caveat": "Loader docstring: '**Truth** for scoring is always final mode over all periods.'. Check this against docs/preregistration.md §4 before the site states it in other words."
+  },
+  {
+    "id": "h4_bar",
+    "value": 0.02,
+    "unit": "relative change",
+    "description": "Pre-registered bar for H4: the largest difference between final-mode and as-of-mode error that still counts as 'revisions do not matter'.",
+    "source_path": "docs/preregistration.md:122",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "h4_cell_b0_seasonal_naive_att_all",
+    "value": -0.000205,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b0_seasonal_naive on all-types attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.000451–-1.5e-05; differs=False."
+  },
+  {
+    "id": "h4_cell_b0_seasonal_naive_att_type1",
+    "value": -4e-06,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b0_seasonal_naive on Type 1 attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -2.3e-05–9e-06; differs=False."
+  },
+  {
+    "id": "h4_cell_b0_seasonal_naive_adm_via_ae",
+    "value": -0.001506,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b0_seasonal_naive on emergency admissions via A&E.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.004678–3e-06; differs=False."
+  },
+  {
+    "id": "h4_cell_b1_ets_att_all",
+    "value": -0.00027,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b1_ets on all-types attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.00077–6.4e-05; differs=False."
+  },
+  {
+    "id": "h4_cell_b1_ets_att_type1",
+    "value": 3e-05,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b1_ets on Type 1 attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -8e-06–0.000104; differs=False."
+  },
+  {
+    "id": "h4_cell_b1_ets_adm_via_ae",
+    "value": -0.002508,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b1_ets on emergency admissions via A&E.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.007812–3e-06; differs=False."
+  },
+  {
+    "id": "h4_cell_b2_stl_arima_att_all",
+    "value": 0.000279,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b2_stl_arima on all-types attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.00037–0.001114; differs=False."
+  },
+  {
+    "id": "h4_cell_b2_stl_arima_att_type1",
+    "value": 0.000147,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b2_stl_arima on Type 1 attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval 0.0–0.000385; differs=False."
+  },
+  {
+    "id": "h4_cell_b2_stl_arima_adm_via_ae",
+    "value": -0.002839,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, b2_stl_arima on emergency admissions via A&E.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.00939–1.8e-05; differs=False."
+  },
+  {
+    "id": "h4_cell_m1_lightgbm_att_all",
+    "value": -0.000632,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, m1_lightgbm on all-types attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.001319–-0.000205; differs=False."
+  },
+  {
+    "id": "h4_cell_m1_lightgbm_att_type1",
+    "value": 4.3e-05,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, m1_lightgbm on Type 1 attendances.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -1.2e-05–8.7e-05; differs=False."
+  },
+  {
+    "id": "h4_cell_m1_lightgbm_adm_via_ae",
+    "value": -0.003681,
+    "unit": "relative change",
+    "description": "H4: relative change in winter horizon-3 WIS from training on revised data rather than as-published data, m1_lightgbm on emergency admissions via A&E.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "95% interval -0.008734–0.003502; differs=False."
+  },
+  {
+    "id": "h4_max_revision_effect",
+    "value": -0.003681,
+    "unit": "relative change",
+    "description": "The largest revision effect over the twelve deciding cells: m1_lightgbm on emergency admissions via A&E.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "confirmatory",
+    "caveat": "Twelve cells = four deciding models (B0, B1 ETS, B2 STL+ARIMA, default M1) × three targets. M1 v3 raw is reported alongside, not among the twelve, and moves further: see h4_alongside_*."
+  },
+  {
+    "id": "h4_alongside_m1_lightgbm_v3_raw_att_all",
+    "value": 0.001531,
+    "unit": "relative change",
+    "description": "H4 for the model reported alongside (m1_lightgbm_v3_raw) on all-types attendances: the base learner of the calibrated primary.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "exploratory",
+    "caveat": "95% interval -0.00683–0.009856. Outside the twelve deciding cells; the widest single cell in the table."
+  },
+  {
+    "id": "h4_alongside_m1_lightgbm_v3_raw_att_type1",
+    "value": 0.003487,
+    "unit": "relative change",
+    "description": "H4 for the model reported alongside (m1_lightgbm_v3_raw) on Type 1 attendances: the base learner of the calibrated primary.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "exploratory",
+    "caveat": "95% interval -0.006008–0.01548. Outside the twelve deciding cells; the widest single cell in the table."
+  },
+  {
+    "id": "h4_alongside_m1_lightgbm_v3_raw_adm_via_ae",
+    "value": -0.013541,
+    "unit": "relative change",
+    "description": "H4 for the model reported alongside (m1_lightgbm_v3_raw) on emergency admissions via A&E: the base learner of the calibrated primary.",
+    "source_path": "results/H-confirmatory/tables/h4.table.csv",
+    "label": "exploratory",
+    "caveat": "95% interval -0.034481–0.004544. Outside the twelve deciding cells; the widest single cell in the table."
+  },
+  {
+    "id": "h4_verdict",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H4 verdict on the sealed window.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "exploratory",
+    "caveat": "Labelled exploratory on the sealed window by the amendment '§9 applied to CONF', because the winter slice holds one winter rather than the four §9 requires. H4's confirmatory statement was made earlier, at tag backtest-v1, on the pre-split window."
+  },
+  {
+    "id": "h4_original_verdict",
+    "value": "does not hold",
+    "unit": "verdict",
+    "description": "H4-original (a ranking change, or a gain over the baseline differing between modes by more than 5 percentage points), which the pre-registration predicted would be refuted.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "exploratory",
+    "caveat": ""
+  },
+  {
+    "id": "h4b_late_submissions_att_all",
+    "value": "confirmed",
+    "unit": "verdict",
+    "description": "H4b for all-types attendances: the late-submission component is the larger one at 16 of 19 origins (needed: more than half, 10).",
+    "source_path": "results/H-confirmatory/tables/h4b.table.csv",
+    "label": "exploratory",
+    "caveat": "Labelled *seen*: the decomposition was computed and read before the freeze."
+  },
+  {
+    "id": "h4b_late_submissions_att_type1",
+    "value": "not confirmed",
+    "unit": "verdict",
+    "description": "H4b for Type 1 attendances: the late-submission component is the larger one at 0 of 19 origins (needed: more than half, 10).",
+    "source_path": "results/H-confirmatory/tables/h4b.table.csv",
+    "label": "exploratory",
+    "caveat": "Labelled *seen*: the decomposition was computed and read before the freeze."
+  },
+  {
+    "id": "h4b_late_submissions_adm_via_ae",
+    "value": "not confirmed",
+    "unit": "verdict",
+    "description": "H4b for emergency admissions via A&E: the late-submission component is the larger one at 0 of 19 origins (needed: more than half, 10).",
+    "source_path": "results/H-confirmatory/tables/h4b.table.csv",
+    "label": "exploratory",
+    "caveat": "Labelled *seen*: the decomposition was computed and read before the freeze."
+  },
+  {
+    "id": "h4b_verdict",
+    "value": "not confirmed",
+    "unit": "verdict",
+    "description": "H4b overall: not confirmed. It holds for all-types attendances only.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "exploratory",
+    "caveat": ""
+  },
+  {
+    "id": "reconciliation_verdict_ets",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 on the sealed window for base model ETS: does MinT reconciliation improve ICB-level WIS without costing providers more than 2%?",
+    "source_path": "results/H-confirmatory/tables/h3.verdicts.csv",
+    "label": "confirmatory",
+    "caveat": "fragile=True. The headline is M1's verdict (decision D3)."
+  },
+  {
+    "id": "reconciliation_verdict_stl_arima",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the sealed window for base model STL+ARIMA: does MinT reconciliation improve ICB-level WIS without costing providers more than 2%?",
+    "source_path": "results/H-confirmatory/tables/h3.verdicts.csv",
+    "label": "confirmatory",
+    "caveat": "fragile=False. The headline is M1's verdict (decision D3)."
+  },
+  {
+    "id": "reconciliation_verdict_m1",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the sealed window for base model M1: does MinT reconciliation improve ICB-level WIS without costing providers more than 2%?",
+    "source_path": "results/H-confirmatory/tables/h3.verdicts.csv",
+    "label": "confirmatory",
+    "caveat": "fragile=True. The headline is M1's verdict (decision D3)."
+  },
+  {
+    "id": "reconciliation_loo_ets_drop_2024-01",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 for ETS with origin 2024-01 left out (ICB upper end -0.011788, provider point 0.0106).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_stl_arima_drop_2024-01",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for STL+ARIMA with origin 2024-01 left out (ICB upper end 0.210317, provider point 0.032567).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_m1_drop_2024-01",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for M1 with origin 2024-01 left out (ICB upper end 0.188291, provider point 0.072149).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_ets_drop_2024-10",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for ETS with origin 2024-10 left out (ICB upper end 0.0383, provider point 0.009366).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_stl_arima_drop_2024-10",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for STL+ARIMA with origin 2024-10 left out (ICB upper end 0.124399, provider point 0.068356).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_m1_drop_2024-10",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for M1 with origin 2024-10 left out (ICB upper end 0.016659, provider point 0.072249).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_ets_drop_2024-11",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 for ETS with origin 2024-11 left out (ICB upper end -0.037382, provider point -0.018919).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_stl_arima_drop_2024-11",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for STL+ARIMA with origin 2024-11 left out (ICB upper end 0.134328, provider point 0.07924).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_m1_drop_2024-11",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for M1 with origin 2024-11 left out (ICB upper end 0.01435, provider point 0.064151).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_ets_drop_2024-12",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 for ETS with origin 2024-12 left out (ICB upper end -0.052705, provider point -0.013784).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_stl_arima_drop_2024-12",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for STL+ARIMA with origin 2024-12 left out (ICB upper end 0.105446, provider point 0.065256).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_m1_drop_2024-12",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 for M1 with origin 2024-12 left out (ICB upper end -0.107653, provider point -0.001351).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_ets_drop_2025-01",
+    "value": "holds",
+    "unit": "verdict",
+    "description": "H3 for ETS with origin 2025-01 left out (ICB upper end -0.025535, provider point -0.009641).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_stl_arima_drop_2025-01",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for STL+ARIMA with origin 2025-01 left out (ICB upper end 0.073913, provider point 0.053416).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_loo_m1_drop_2025-01",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 for M1 with origin 2025-01 left out (ICB upper end 0.035006, provider point 0.052254).",
+    "source_path": "results/H-confirmatory/tables/h3.loo.csv",
+    "label": "confirmatory",
+    "caveat": "Two of the three verdicts flip on a single origin: ETS fails without 2024-10, M1 holds without 2024-12."
+  },
+  {
+    "id": "reconciliation_dev_ets_provider",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base ETS at provider level: relative WIS change 34.490967 (95% interval 11.356105-66.92318), over 232 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_ets_icb",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base ETS at icb level: relative WIS change -0.530781 (95% interval -0.946527-0.080382), over 36 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_ets_region",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base ETS at region level: relative WIS change -0.982834 (95% interval -0.999557--0.95339), over 7 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_ets_england",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base ETS at england level: relative WIS change -0.999945 (95% interval -0.999945--0.999945), over 1 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_stl_arima_provider",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base STL+ARIMA at provider level: relative WIS change 0.027044 (95% interval 0.010621-0.042416), over 232 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_stl_arima_icb",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base STL+ARIMA at icb level: relative WIS change 0.00271 (95% interval -0.014603-0.018668), over 36 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_stl_arima_region",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base STL+ARIMA at region level: relative WIS change -0.026623 (95% interval -0.041035--0.010669), over 7 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_stl_arima_england",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base STL+ARIMA at england level: relative WIS change -0.075087 (95% interval -0.075087--0.075087), over 1 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_m1_provider",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base M1 at provider level: relative WIS change 0.115879 (95% interval 0.088194-0.147605), over 240 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_m1_icb",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base M1 at icb level: relative WIS change 0.111401 (95% interval 0.102113-0.119928), over 36 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_m1_region",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base M1 at region level: relative WIS change 0.027618 (95% interval 0.016152-0.039584), over 7 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "reconciliation_dev_m1_england",
+    "value": "fails",
+    "unit": "verdict",
+    "description": "H3 on the development window, base M1 at england level: relative WIS change -0.029298 (95% interval -0.029298--0.029298), over 1 series.",
+    "source_path": "results/F-reconciliation/h3_results.csv",
+    "label": "development",
+    "caveat": "Development-window reconciliation, scored before the seal was opened. The development verdicts fail for every base; the sealed window agrees except for ETS."
+  },
+  {
+    "id": "decision_layer_median_error",
+    "value": 8.7,
+    "unit": "percentage points",
+    "description": "Median absolute error of the registered occupancy reconstruction against published KH03 occupancy, outside the COVID window, over 2,274 trust-quarters.",
+    "source_path": "docs/amendment_log.md:479",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "decision_layer_tolerance",
+    "value": 5.0,
+    "unit": "percentage points",
+    "description": "Registered tolerance the reconstruction had to meet: median absolute error at most this, and at least 80% of trust-quarters within 10 points.",
+    "source_path": "docs/amendment_log.md:93",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "decision_layer_verdict",
+    "value": "illustrative only",
+    "unit": "verdict",
+    "description": "The decision layer failed both limbs of its registered validation, so every bed number it produces ships labelled illustrative, and P(breach) is labelled a lower bound.",
+    "source_path": "results/G-decision/occupancy_validation.md",
+    "label": "development",
+    "caveat": "This label must travel with every figure and table derived from the decision layer, on the site as in the repository."
+  },
+  {
+    "id": "decision_layer_occupancy_threshold",
+    "value": 0.92,
+    "unit": "proportion",
+    "description": "The bed-occupancy planning threshold the decision layer reports breaches of.",
+    "source_path": "docs/confirmatory_plan.md:669",
+    "label": "development",
+    "caveat": "Source recorded as NHS England 2023/24 planning guidance, but the project's own record still marks it '[needs citation]' and says the line must be sourced before use (docs/amendment_log.md, STOP 8 entry). Do not publish the threshold with a citation until that is resolved."
+  },
+  {
+    "id": "tuning_configurations",
+    "value": 16,
+    "unit": "count",
+    "description": "Hyperparameter configurations evaluated in the registered search over the pre-registered space.",
+    "source_path": "results/m1-tuning/m1_search.csv",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "tuning_spread",
+    "value": 0.0918,
+    "unit": "relative change",
+    "description": "Spread of mean WIS across those configurations, best to worst, computed from the search table.",
+    "source_path": "results/m1-tuning/m1_search.csv",
+    "label": "development",
+    "caveat": "Computed by site/build_numbers.py from the wis_mean column: (max - min) / min."
+  },
+  {
+    "id": "tuning_criterion_noise_floor",
+    "value": [
+      2.257,
+      4.112
+    ],
+    "unit": "per cent",
+    "description": "The seed-noise floor the tuning spread has to beat: the minimum meaningful difference in WIS from re-running the same configuration under different seeds, per target.",
+    "source_path": "results/A-noise-floor/noise_table.csv",
+    "label": "development",
+    "caveat": "Column mmd_wis_pct over the three targets. The tuning spread is a range over configurations, not a standard deviation; compare like with like before saying the search 'moved nothing'."
+  },
+  {
+    "id": "cold_start_untestable",
+    "value": "H5 (cold start): not evaluable on CONF, and never testable on a sealed split after Stage H. M2 exists only at ICB level, the current 36-ICB mapping is applied to the whole history so no ICB series has a cold start, and a provider-level M2 was never built.",
+    "unit": "reason",
+    "description": "H5 (cold start) was registered but could not be evaluated, and never can be on a sealed split. The recorded reason, verbatim.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "amendments_total",
+    "value": 83,
+    "unit": "count",
+    "description": "Amendments recorded in the pre-registration's amendment table.",
+    "source_path": "docs/amendment_log.md",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "amendments_after_freeze",
+    "value": 71,
+    "unit": "count",
+    "description": "Amendments dated after the freeze of 2026-09-09. The remainder are dated on or before it and are marked pre-freeze in their own text.",
+    "source_path": "docs/amendment_log.md",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "amendments_touching_hypotheses",
+    "value": 32,
+    "unit": "count",
+    "description": "Amendments whose text names a registered hypothesis (H1-H5, H4b) or the primary comparison.",
+    "source_path": "docs/amendment_log.md",
+    "label": "confirmatory",
+    "caveat": "Counted mechanically by site/build_numbers.py: entries matching /\\bH[1-5]b?\\b|primary/."
+  },
+  {
+    "id": "freeze_date",
+    "value": "2026-09-09",
+    "unit": "date",
+    "description": "The date the pre-registration was frozen; nothing after it changes a hypothesis without an amendment row.",
+    "source_path": "docs/preregistration.md:181",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "tag_names",
+    "value": [
+      "conf-plan-v1",
+      "conf-run-v1",
+      "prereg-v1"
+    ],
+    "unit": "git tags",
+    "description": "The three tags that anchor the record: the frozen pre-registration, the confirmatory plan (the run's token), and the run's results.",
+    "source_path": "docs/confirmatory_results.md and docs/preregistration.md",
+    "label": "confirmatory",
+    "caveat": "prereg-v1 freezes the hypotheses; conf-plan-v1 is the commit the sealed run was allowed to start from; conf-run-v1 is the commit holding its results."
+  },
+  {
+    "id": "confirmatory_unseal_date",
+    "value": "2026-09-15T18:04:53+00:00",
+    "unit": "timestamp",
+    "description": "When the sealed window was opened, from the single line written to the unseal log.",
+    "source_path": "results/H-confirmatory/unseal_entry.json",
+    "label": "confirmatory",
+    "caveat": "One line only; 21 sealed rows, origins 2024-01-01 to 2025-09-01."
+  },
+  {
+    "id": "disclosure_models_seen_sealed_months",
+    "value": "**Disclosure: CONF is sealed going forward, not unseen.** B0, B1, B2 and M1 (default, tuned, v2, v3) were scored on all 73 origins before the seal, CONF included, and aggregate results over them were read (e.g. M1's 90% coverage of 0.92 for 2025 origins, cited in §H2 of `results.md`). For those specifications CONF is a re-test. It is a first test only for specifications created after 2026-09-10 (calibration methods, M2). PROSPECTIVE is the only test no specification has seen.",
+    "unit": "quoted disclosure",
+    "description": "Which models had already been scored on the sealed months during development, and which met them first in the confirmatory run. Quoted verbatim from the project's own disclosure row.",
+    "source_path": "docs/preregistration.md:185",
+    "label": "confirmatory",
+    "caveat": "This is the sentence that forbids the site saying 'tested on data the models had never seen'. The calibration methods and the hierarchical model met the sealed months first in the confirmatory run; the baselines and the tree model did not."
+  },
+  {
+    "id": "vintage_recovered_from",
+    "value": "the Internet Archive's captures of the NHS England year pages",
+    "unit": "provenance",
+    "description": "Where file versions from before the vintage archive existed were recovered from.",
+    "source_path": "docs/preregistration.md:303",
+    "label": "development",
+    "caveat": "The pre-registration's own check: '263 recovered files have an Internet Archive capture', each verified against the NHS England server. Files still on the server are fetched from it directly."
+  },
+  {
+    "id": "vintage_file_versions",
+    "value": 720,
+    "unit": "count",
+    "description": "File versions recorded in the vintage manifest: one row per published file version.",
+    "source_path": "data/raw/manifest.jsonl",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "vintage_snapshot_dates",
+    "value": 121,
+    "unit": "count",
+    "description": "Distinct dates on which a file version became current (manifest available_from).",
+    "source_path": "data/raw/manifest.jsonl",
+    "label": "development",
+    "caveat": "2015-08-13 to 2026-09-15. Counted from the manifest, which travels with every copy of this repository; the private working repository also holds one directory per snapshot under data/raw, and site/REPORT.md records how the two counts differ."
+  },
+  {
+    "id": "vintage_period_range",
+    "value": [
+      "2015-06",
+      "2026-08"
+    ],
+    "unit": "month range",
+    "description": "Range of data months covered by the archived file versions.",
+    "source_path": "data/raw/manifest.jsonl",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "vintage_rule_for_months_without_a_snapshot",
+    "value": "the origin is excluded from as-of evaluation, or the month is dropped from that origin's training data; each case is listed in Appendix A with its treatment",
+    "unit": "rule",
+    "description": "What happens at an origin where a data month has no surviving as-of version.",
+    "source_path": "docs/preregistration.md:258 (Appendix A)",
+    "label": "confirmatory",
+    "caveat": "Appendix A lists every such origin and period, and the amendment 'Appendix A correction' names the four truncated origins: 2018-11, 2021-10, 2025-08, 2025-09."
+  },
+  {
+    "id": "scale_panel_rows",
+    "value": 1072039,
+    "unit": "count",
+    "description": "Rows in the vintage panel: one per provider, month and file version.",
+    "source_path": "data/processed/ae_monthly_all_vintages.parquet",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "scale_provider_codes",
+    "value": 332,
+    "unit": "count",
+    "description": "Distinct provider codes across the whole history, including codes retired at mergers.",
+    "source_path": "data/processed/ae_monthly_all_vintages.parquet",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "scale_provider_codes_typical_month",
+    "value": 217,
+    "unit": "count",
+    "description": "Distinct provider codes appearing in a typical month across all archived versions of that month (median over months).",
+    "source_path": "data/processed/ae_monthly_all_vintages.parquet",
+    "label": "development",
+    "caveat": "Higher than the number of providers actually scored: a month's codes accumulate over its file versions, including codes later withdrawn or merged."
+  },
+  {
+    "id": "scale_providers_scored_typical_month",
+    "value": 194,
+    "unit": "count",
+    "description": "Provider series actually scored in the sealed window (median over horizons).",
+    "source_path": "results/H-confirmatory/tables/primary.table.csv",
+    "label": "confirmatory",
+    "caveat": "Range 194-197 across horizons. This is the number to quote for 'how many trusts', not the raw code count."
+  },
+  {
+    "id": "scale_icbs",
+    "value": 36,
+    "unit": "count",
+    "description": "Integrated care boards in the current mapping, applied to the whole history.",
+    "source_path": "docs/preregistration.md:192",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "scale_regions",
+    "value": 7,
+    "unit": "count",
+    "description": "NHS England regions in the hierarchy.",
+    "source_path": "docs/stage_h_design.md (hierarchy: providers → ICBs → regions → England)",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "scale_development_origins",
+    "value": 69,
+    "unit": "count",
+    "description": "Forecast origins in the development window.",
+    "source_path": "results/H-confirmatory/tables/dev.coverage.primary.csv",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "scale_sealed_origins",
+    "value": 19,
+    "unit": "count",
+    "description": "Distinct information sets in the sealed window, the unit of every pooled statistic.",
+    "source_path": "results/H-confirmatory/verdicts.json",
+    "label": "confirmatory",
+    "caveat": "['2024-01-01', '2024-02-01', '2024-03-01', '2024-04-01', '2024-05-01', '2024-06-01', '2024-07-01', '2024-08-01', '2024-09-01', '2024-10-01', '2024-11-01', '2024-12-01', '2025-01-01', '2025-02-01', '2025-03-01', '2025-04-01', '2025-05-01', '2025-06-01', '2025-07-01', '2025-08-01', '2025-09-01'] sealed origins were generated; three of them share one as-of information set, proved by hash, so 19 units are counted."
+  },
+  {
+    "id": "scale_automated_tests",
+    "value": 480,
+    "unit": "count",
+    "description": "Test functions in the suite, counted from the files.",
+    "source_path": "tests/test_*.py",
+    "label": "development",
+    "caveat": "40 test modules. pytest collects more node ids than this, because parametrised tests expand; run `pytest -q --collect-only` for that number, which depends on which optional dependencies are installed."
+  },
+  {
+    "id": "live_forecast_model",
+    "value": "raw ETS (B1), uncalibrated",
+    "unit": "model",
+    "description": "The model published on 31 October 2026: exponential smoothing with its own simulated intervals, no conformal step and no calibration pool.",
+    "source_path": "docs/handover.md",
+    "label": "confirmatory",
+    "caveat": "Fixed at the plan tag. Under P12 any later change to it is recorded as CONF-informed."
+  },
+  {
+    "id": "live_forecast_origin_release_date",
+    "value": "8 October 2026",
+    "unit": "date",
+    "description": "The release day the live forecast is made from; the forecast itself publishes by 31 October 2026.",
+    "source_path": "docs/handover.md:125",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "live_forecast_first_scoring_date",
+    "value": "12 November 2026",
+    "unit": "date",
+    "description": "When the first live forecast's horizon-1 value is scored against the outturn.",
+    "source_path": "docs/handover.md:202",
+    "label": "confirmatory",
+    "caveat": ""
+  },
+  {
+    "id": "live_forecast_output_paths",
+    "value": [
+      "forecasts/2026-10/ets/quantiles.parquet",
+      "forecasts/2026-10/ets/manifest.json",
+      "forecasts/2026-10/ets/breach_illustrative.csv"
+    ],
+    "unit": "paths",
+    "description": "Where the published forecast is written. The directory does not exist until the run on 8 October 2026; the same layout exists for the 2026-09 dry run.",
+    "source_path": "docs/handover.md",
+    "label": "confirmatory",
+    "caveat": "breach_illustrative.csv carries the decision layer's illustrative label in every row."
+  },
+  {
+    "id": "live_forecast_public_scorecard",
+    "value": "planned, not built",
+    "unit": "status",
+    "description": "Whether a public scorecard tracking the live forecast's accuracy exists.",
+    "source_path": "docs/portfolio_brief.md",
+    "label": "post_hoc",
+    "caveat": "The work order asks for a GitHub Pages scorecard updated by the monthly Action; no such page is in the repository."
+  }
+]

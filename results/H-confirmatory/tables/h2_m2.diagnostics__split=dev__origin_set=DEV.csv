@@ -1,0 +1,7 @@
+split,origin_set,oyear,fits,rhat_max_median,ess_bulk_min_median,divergences_median,divergences_total
+dev,DEV,2018,,1.015,199.0,,
+dev,DEV,2019,,1.015,229.0,,
+dev,DEV,2020,,1.026,167.0,,
+dev,DEV,2021,,1.047,84.0,,
+dev,DEV,2022,,1.052,79.0,,
+dev,DEV,2023,,1.069,63.0,,

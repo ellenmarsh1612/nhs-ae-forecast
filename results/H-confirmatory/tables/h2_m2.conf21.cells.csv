@@ -1,0 +1,13 @@
+split,origin_set,n_origins,level,mode,months,model,oyear,horizon,region,stat,value,n,origins,assessed,met,g1
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,1,assessable,cov90,0.9814814814814815,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,2,assessable,cov90,0.9899691358024691,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,3,assessable,cov90,0.9845679012345679,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,4,assessable,cov90,0.9884259259259259,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,5,assessable,cov90,0.9861111111111112,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2024,6,assessable,cov90,0.9899691358024691,1296,12,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,1,assessable,cov90,0.9609053497942387,972,9,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,2,assessable,cov90,0.9979423868312757,972,9,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,3,assessable,cov90,0.9969135802469136,972,9,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,4,assessable,cov90,0.9989711934156379,972,9,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,5,assessable,cov90,0.9958847736625515,972,9,True,False,as_issued
+conf,CONF21,21,icb,asof,all,m2d_corr,2025,6,assessable,cov90,0.9948559670781894,972,9,True,False,as_issued

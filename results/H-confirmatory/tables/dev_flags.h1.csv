@@ -1,0 +1,9 @@
+split,origin_set,n_origins,months,horizons,g1,level,mode,metric,model,target,stat,conf,dev_min,dev_max,n_seasons,outside,reason
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm,att_all,rel,-0.47601628163847975,-0.5393478617445531,-0.1407317006981501,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm,att_type1,rel,-0.4477605333326805,-0.42472797403708884,-0.028891096286441598,5,True,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm,adm_via_ae,rel,-0.38365959911368175,-0.4686210103765778,-0.209379358990325,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm,pooled,rel,-0.43723859548516986,-0.4688338567616508,-0.15045638454347576,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm_v3_raw,att_all,rel,-0.3550130819108577,-0.5739967516430085,-0.1910182323619003,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm_v3_raw,att_type1,rel,-0.3297748073544069,-0.5241516681080286,-0.14011930895789237,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm_v3_raw,adm_via_ae,rel,-0.45219253589518793,-0.48536717349543956,-0.19452668734294398,5,False,
+conf,W5,5,winter,3,as_issued,provider,asof,mase,m1_lightgbm_v3_raw,pooled,rel,-0.3918597928085412,-0.5095204017124892,-0.22605344361041702,5,False,

@@ -1,0 +1,121 @@
+split,origin_set,months,horizons,g1,mode,metric,season,n_origins,fragment,in_range,model,level,target,stat,value
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,england,att_all,rel,-0.5942721155362014
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,england,att_type1,rel,-0.5647651996778384
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,england,adm_via_ae,rel,-0.7497986996415003
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,england,geometric mean,rel,-0.6464783539208874
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,england,att_all,rel,-0.45847867618390736
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,england,att_type1,rel,-0.4753519757680996
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,england,adm_via_ae,rel,-0.6042611222744196
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,england,geometric mean,rel,-0.5173517074945846
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,england,att_all,rel,-0.320059134150964
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,england,att_type1,rel,-0.08583966628626805
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,england,adm_via_ae,rel,-0.5798695540470242
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,england,geometric mean,rel,-0.3608160067329459
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),england,att_all,rel,0.008847632461765675
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),england,att_type1,rel,0.3587389935743448
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),england,adm_via_ae,rel,0.20816738197126328
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),england,geometric mean,rel,0.18312212214095558
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,england,att_all,rel,0.033996432140170896
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,england,att_type1,rel,0.06775877636461258
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,england,adm_via_ae,rel,-0.04016774175258009
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,england,geometric mean,rel,0.019520220916476427
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,england,att_all,rel,0.011617916894816283
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,england,att_type1,rel,0.04029963037404127
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,england,adm_via_ae,rel,-0.10964917636321048
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,england,geometric mean,rel,-0.021459720438320007
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,england,att_all,rel,-0.02567060047626324
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,england,att_type1,rel,-0.013865234985783625
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,england,adm_via_ae,rel,-0.10146601430813273
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,england,geometric mean,rel,-0.04780580747465024
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),england,att_all,rel,-0.04967439639796323
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),england,att_type1,rel,-0.010543586209304179
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),england,adm_via_ae,rel,-0.2569968279150774
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),england,geometric mean,rel,-0.11266709110802109
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,england,att_all,rel,-0.1213776214159078
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,england,att_type1,rel,1.875594759889724
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,england,adm_via_ae,rel,0.47335516729490124
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,england,geometric mean,rel,0.5498124007870353
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,england,att_all,rel,-0.05642495255142288
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,england,att_type1,rel,-0.29367218239389237
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,england,adm_via_ae,rel,0.04783077816353232
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,england,geometric mean,rel,-0.11279366054305695
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,england,att_all,rel,0.029109194959775264
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,england,att_type1,rel,0.025328844570330356
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,england,adm_via_ae,rel,0.19842663294525642
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,england,geometric mean,rel,0.08138090166070122
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),england,att_all,rel,-0.4267071643507061
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),england,att_type1,rel,-0.32951652062933434
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),england,adm_via_ae,rel,-0.26100590181508776
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),england,geometric mean,rel,-0.3426421473442979
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,england,att_all,rel,-0.1701471975997252
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,england,att_type1,rel,-0.1418468855772701
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,england,adm_via_ae,rel,-0.25070670260163574
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,england,geometric mean,rel,-0.1889034292931414
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,england,att_all,rel,-0.028555963380699545
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,england,att_type1,rel,-0.02678913258897131
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,england,adm_via_ae,rel,-0.08732582060422378
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,england,geometric mean,rel,-0.047978330978952655
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,england,att_all,rel,-0.029347353740156512
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,england,att_type1,rel,-0.30966219638801373
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,england,adm_via_ae,rel,-0.22548371215224927
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,england,geometric mean,rel,-0.1963776286309823
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),england,att_all,rel,-0.33451847885962516
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),england,att_type1,rel,-0.2763224232756635
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),england,adm_via_ae,rel,-0.2723044607671221
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),england,geometric mean,rel,-0.29496565046101564
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,england,att_all,rel,0.5396324552782297
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,england,att_type1,rel,0.09515963924751425
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,england,adm_via_ae,rel,-0.27647426759197
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,england,geometric mean,rel,0.06852041215449267
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,england,att_all,rel,0.646303533255207
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,england,att_type1,rel,0.2771831761911001
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,england,adm_via_ae,rel,0.3660818653274398
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,england,geometric mean,rel,0.42149916364887763
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,england,att_all,rel,0.035188007461373516
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,england,att_type1,rel,-0.25118400950140296
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,england,adm_via_ae,rel,0.2052862138233844
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,england,geometric mean,rel,-0.022399285372106337
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),england,att_all,rel,0.2595229397966359
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),england,att_type1,rel,-0.04030319469328658
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),england,adm_via_ae,rel,0.3906115417743985
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),england,geometric mean,rel,0.18900036194144554
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,england,att_all,rel,0.7641741685588521
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,england,att_type1,rel,0.36293268956717917
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,england,adm_via_ae,rel,-0.6181258122386697
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,england,geometric mean,rel,-0.02804671879668963
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,england,att_all,rel,1.5937200832685567
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,england,att_type1,rel,0.7627309297856681
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,england,adm_via_ae,rel,-0.6323979345813155
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,england,geometric mean,rel,0.18894662258798367
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,england,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,england,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,england,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,england,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,england,att_all,rel,1.4819115465311028
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,england,att_type1,rel,0.36291986631562634
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,england,adm_via_ae,rel,-0.26976251603525125
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,england,geometric mean,rel,0.3517827947219816
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),england,att_all,rel,0.8886903618322846
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),england,att_type1,rel,0.534847861876401
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),england,adm_via_ae,rel,-0.3275932258007128
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),england,geometric mean,rel,0.2491638069772384

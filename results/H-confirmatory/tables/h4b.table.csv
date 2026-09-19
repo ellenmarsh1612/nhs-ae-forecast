@@ -1,0 +1,4 @@
+split,origin_set,n_origins,target,late_larger,need,verdict,label
+conf,CONF19,19,att_all,16,10,confirmed,seen
+conf,CONF19,19,att_type1,0,10,not confirmed,seen
+conf,CONF19,19,adm_via_ae,0,10,not confirmed,seen

@@ -1,0 +1,9 @@
+model_key,model,mode,n_new,n_old,only_new,only_old,nan_mismatch,share_identical,median_rel_diff,max_rel_diff,identical,expected
+b0,b0_seasonal_naive,asof,691254,691254,0,0,0,1.0,0.0,0.0,True,identical
+b0,b0_seasonal_naive,final,692874,692874,0,0,0,1.0,0.0,0.0,True,identical unless the archive changed
+b1,b1_ets,asof,691254,691254,0,0,0,0.2888489614526643,0.006058548784515626,71.49011061723832,False,differs: B1 is now seeded
+b1,b1_ets,final,692874,692874,0,0,0,0.2901061376238681,0.006059761288886531,71.49011061723832,False,differs: B1 is now seeded
+b2,b2_stl_arima,asof,691254,691254,0,0,0,1.0,0.0,0.0,True,identical
+b2,b2_stl_arima,final,692874,692874,0,0,0,1.0,0.0,0.0,True,identical unless the archive changed
+m1,m1_lightgbm,asof,691254,691254,0,0,0,1.0,0.0,0.0,True,identical
+m1,m1_lightgbm,final,692874,692874,0,0,0,1.0,0.0,0.0,True,identical unless the archive changed

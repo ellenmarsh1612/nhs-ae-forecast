@@ -1,0 +1,4 @@
+split,origin_set,n_origins,target,late_larger,share,label,role
+dev,DEV,69,att_all,21,0.30434782608695654,seen,descriptive
+dev,DEV,69,att_type1,11,0.15942028985507245,seen,descriptive
+dev,DEV,69,adm_via_ae,11,0.15942028985507245,seen,descriptive

@@ -1,0 +1,4 @@
+model,level,failed,failed_dev_origins,failed_new_origins
+ETS,region,45,45,0
+STL+ARIMA,region,0,0,0
+M1,region,0,0,0

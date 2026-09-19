@@ -1,0 +1,74 @@
+# Pinned environment for the live forecast's record run (P6): pip freeze of .venv-m2, 2026-09-12.
+# Python 3.13.12, macOS-15.2-arm64-arm-64bit-Mach-O. Recreate:
+#   python3.13 -m venv .venv-live
+#   .venv-live/bin/pip install -r requirements-lock.txt
+#   .venv-live/bin/pip install -e . --no-deps
+# In this environment all tests pass, the archive parses identically to the shared vintage
+# table, and forecasts/2026-09 reproduces bit for bit. Output is bit-identical only within one
+# environment (docs/handover.md section 12); CI installs unpinned and is a cross-check.
+arro3-core==0.8.2
+arviz==1.3.0
+arviz-base==1.3.0
+arviz-plots==1.3.1
+arviz-stats==1.3.2
+beautifulsoup4==4.15.0
+cachetools==6.2.6
+certifi==2026.7.22
+charset-normalizer==3.5.1
+cloudpickle==3.1.2
+contourpy==1.3.3
+cycler==0.12.1
+donfig==0.8.1.post1
+et_xmlfile==2.0.0
+filelock==3.32.6
+fonttools==4.64.0
+formulaic==1.2.2
+google-crc32c==1.8.0
+idna==3.19
+iniconfig==2.3.0
+interface_meta==2.0.1
+kiwisolver==1.5.1
+lazy-loader==0.5
+lightgbm==4.7.0
+llvmlite==0.49.0
+lxml==6.1.3
+markdown-it-py==4.2.0
+matplotlib==3.11.1
+mdurl==0.1.2
+narwhals==2.26.0
+numba==0.67.0
+numcodecs==0.16.5
+numpy==2.5.3
+nutpie==0.16.11
+obstore==0.11.1
+openpyxl==3.1.5
+packaging==26.3
+pandas==3.0.5
+patsy==1.0.3
+pillow==12.3.0
+platformdirs==4.11.8
+pluggy==1.6.0
+pyarrow==25.0.1
+Pygments==2.21.0
+pymc==6.3.2
+pyparsing==3.3.2
+pytensor==3.3.1
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+requests==2.34.2
+rich==15.0.0
+ruff==0.16.6
+scipy==1.18.1
+setuptools==84.0.0
+six==1.17.0
+soupsieve==2.9.2
+statsmodels==0.15.0
+threadpoolctl==3.6.0
+typing_extensions==4.16.0
+urllib3==2.7.0
+wrapt==2.4.1rc1
+xarray==2026.7.0
+xarray-einstats==0.11.0
+xlrd==2.0.2
+zarr==3.3.0

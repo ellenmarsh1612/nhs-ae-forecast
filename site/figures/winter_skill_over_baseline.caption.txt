@@ -1,0 +1,1 @@
+H1 on the sealed window: MASE against the seasonal-naive baseline at horizon 3 in winter, with 95% paired-bootstrap intervals over providers. All three targets clear the pre-registered 15% bar, and do so with any one of the five winter origins left out. Source: results/H-confirmatory/tables/h1.table.csv.

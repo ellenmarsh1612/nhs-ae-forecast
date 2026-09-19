@@ -1,0 +1,1 @@
+H4 on the sealed window: every one of the twelve deciding model × target cells sits within 0.4% of zero, against a pre-registered bar of ±2%, so training on revised data rather than the figures published at the time changes winter accuracy negligibly. Source: results/H-confirmatory/tables/h4.table.csv.

@@ -1,0 +1,121 @@
+split,origin_set,months,horizons,g1,mode,metric,season,n_origins,fragment,in_range,model,level,target,stat,value
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,icb,att_all,rel,-0.23585056604587207
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,icb,att_type1,rel,-0.27942141457756764
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,icb,adm_via_ae,rel,-0.026393794245643254
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled,icb,geometric mean,rel,-0.1876416287594297
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,icb,att_all,rel,-0.11780794102482106
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,icb,att_type1,rel,-0.23503916911499212
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,icb,adm_via_ae,rel,-0.036159807521783716
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS + pooled + MinT,icb,geometric mean,rel,-0.1335653907671137
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,icb,att_all,rel,-0.05149545106093811
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,icb,att_type1,rel,0.03273321622848502
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,icb,adm_via_ae,rel,0.25645222718691607
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1 + pooled + MinT,icb,geometric mean,rel,0.07166204122414377
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),icb,att_all,rel,0.10899413055364149
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),icb,att_type1,rel,0.015847949899188585
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),icb,adm_via_ae,rel,0.2327809440719566
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M2 frozen (m2d_corr),icb,geometric mean,rel,0.11570134395775367
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,icb,att_all,rel,0.0613530114429337
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,icb,att_type1,rel,0.028041594207397713
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,icb,adm_via_ae,rel,0.0059709374271674776
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled,icb,geometric mean,rel,0.031538224321408403
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,icb,att_all,rel,0.061346031074474894
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,icb,att_type1,rel,0.04077098091650533
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,icb,adm_via_ae,rel,0.06113149992375244
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS + pooled + MinT,icb,geometric mean,rel,0.05437182918627048
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,icb,att_all,rel,0.01258994300170424
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,icb,att_type1,rel,0.016571421105096906
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,icb,adm_via_ae,rel,0.0794779055873105
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1 + pooled + MinT,icb,geometric mean,rel,0.03576624746232149
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),icb,att_all,rel,-0.08495348599544683
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),icb,att_type1,rel,-0.13359923812868857
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),icb,adm_via_ae,rel,-0.25292880079271174
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M2 frozen (m2d_corr),icb,geometric mean,rel,-0.16020233369699943
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,icb,att_all,rel,0.10961368879345645
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,icb,att_type1,rel,0.1366416537147912
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,icb,adm_via_ae,rel,0.11617525413014484
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled,icb,geometric mean,rel,0.12075130780799315
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,icb,att_all,rel,0.24373922517748547
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,icb,att_type1,rel,0.21099408554818555
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,icb,adm_via_ae,rel,0.07255691083141258
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS + pooled + MinT,icb,geometric mean,rel,0.1733580745777732
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,icb,att_all,rel,0.3575244741853414
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,icb,att_type1,rel,0.2009394426192821
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,icb,adm_via_ae,rel,0.25827253910767434
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1 + pooled + MinT,icb,geometric mean,rel,0.2706165225296917
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),icb,att_all,rel,-0.29505708600310043
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),icb,att_type1,rel,-0.24322533695007298
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),icb,adm_via_ae,rel,-0.18071313151874924
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M2 frozen (m2d_corr),icb,geometric mean,rel,-0.2410983292391915
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,icb,att_all,rel,-0.03183533240680669
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,icb,att_type1,rel,-0.08568601838036194
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,icb,adm_via_ae,rel,-0.17407974903480672
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled,icb,geometric mean,rel,-0.09913253674035105
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,icb,att_all,rel,0.21604020769342047
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,icb,att_type1,rel,0.13450463473384566
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,icb,adm_via_ae,rel,-0.037955904097792814
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS + pooled + MinT,icb,geometric mean,rel,0.09896297939248222
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,icb,att_all,rel,0.22766485979251128
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,icb,att_type1,rel,-0.15420903743111536
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,icb,adm_via_ae,rel,0.057266007274874076
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1 + pooled + MinT,icb,geometric mean,rel,0.03159456368580371
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),icb,att_all,rel,-0.1620244583527949
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),icb,att_type1,rel,-0.17052299443923458
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),icb,adm_via_ae,rel,-0.07399058111071821
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M2 frozen (m2d_corr),icb,geometric mean,rel,-0.1365900827297718
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,icb,att_all,rel,0.4694279682029794
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,icb,att_type1,rel,0.3265644391879601
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,icb,adm_via_ae,rel,0.01839608959417749
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled,icb,geometric mean,rel,0.25679504158712696
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,icb,att_all,rel,0.6123092050663634
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,icb,att_type1,rel,0.46339947263962644
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,icb,adm_via_ae,rel,0.2538778919903535
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS + pooled + MinT,icb,geometric mean,rel,0.43556267351478994
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,icb,att_all,rel,-0.004522625648353373
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,icb,att_type1,rel,-0.0576649085913683
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,icb,adm_via_ae,rel,0.1142123556273944
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1 + pooled + MinT,icb,geometric mean,rel,0.014849345374057688
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),icb,att_all,rel,0.25441567718486
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),icb,att_type1,rel,0.16227700688129354
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),icb,adm_via_ae,rel,0.4559257810576185
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M2 frozen (m2d_corr),icb,geometric mean,rel,0.2851785011320871
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,icb,att_all,rel,0.26858079123027756
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,icb,att_type1,rel,0.17840991624442526
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,icb,adm_via_ae,rel,-0.048770622148354925
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled,icb,geometric mean,rel,0.12451846565658076
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,icb,att_all,rel,0.6776527644340704
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,icb,att_type1,rel,0.41524354456548673
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,icb,adm_via_ae,rel,-0.10809772009270802
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS + pooled + MinT,icb,geometric mean,rel,0.2841532182249713
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,icb,att_all,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,icb,att_type1,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,icb,adm_via_ae,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled,icb,geometric mean,rel,0.0
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,icb,att_all,rel,0.699481136841331
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,icb,att_type1,rel,0.44795249931607306
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,icb,adm_via_ae,rel,0.6053371281414692
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1 + pooled + MinT,icb,geometric mean,rel,0.580807439849683
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),icb,att_all,rel,0.5814983428503677
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),icb,att_type1,rel,0.5196351248300992
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),icb,adm_via_ae,rel,0.14566548705142734
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M2 frozen (m2d_corr),icb,geometric mean,rel,0.4015931454843309

@@ -1,0 +1,16 @@
+split,origin_set,n_origins,level,g1,months,horizons,metric,target,mode,key,model,mean_wis,rank,n_rows,n_series,holds
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_all,asof,b0,b0_seasonal_naive,835.8917185948986,5,920,187,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_all,asof,b1,b1_ets,452.7372740109633,3,920,187,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_all,asof,b2,b2_stl_arima,460.9053747177776,4,920,187,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_all,asof,m1,m1_lightgbm,340.47024528591646,1,920,187,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_all,asof,m1_v3_raw,m1_lightgbm_v3_raw,423.54445901255554,2,920,187,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_type1,asof,b0,b0_seasonal_naive,640.0311676829681,5,607,122,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_type1,asof,b1,b1_ets,370.9980591448394,2,607,122,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_type1,asof,b2,b2_stl_arima,394.89254303980147,3,607,122,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_type1,asof,m1,m1_lightgbm,334.7390274786473,1,607,122,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,att_type1,asof,m1_v3_raw,m1_lightgbm_v3_raw,399.70485857461927,4,607,122,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,adm_via_ae,asof,b0,b0_seasonal_naive,203.6227005690811,5,671,135,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,adm_via_ae,asof,b1,b1_ets,97.6992655533695,1,671,135,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,adm_via_ae,asof,b2,b2_stl_arima,102.14338791792244,2,671,135,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,adm_via_ae,asof,m1,m1_lightgbm,125.23382092023206,4,671,135,True
+conf,W5,5,provider,failed_dropped,winter,3,wis,adm_via_ae,asof,m1_v3_raw,m1_lightgbm_v3_raw,111.08573648870532,3,671,135,True

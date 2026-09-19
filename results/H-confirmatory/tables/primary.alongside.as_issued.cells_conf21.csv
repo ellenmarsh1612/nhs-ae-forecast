@@ -1,0 +1,13 @@
+split,origin_set,n_origins,level,mode,months,model,oyear,horizon,region,stat,value,n,origins,assessed,met,g1
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,1,assessable,cov90,0.8627377844088027,5362,12,True,False,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,2,assessable,cov90,0.8772880089652596,5354,12,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,3,assessable,cov90,0.87471952131638,5348,12,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,4,assessable,cov90,0.8920284431137725,5344,12,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,5,assessable,cov90,0.891593334581539,5341,12,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2024,6,assessable,cov90,0.905377552932359,5337,12,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,1,assessable,cov90,0.8949590265706481,4027,9,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,2,assessable,cov90,0.8988819875776397,4025,9,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,3,assessable,cov90,0.9052945563012678,4023,9,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,4,assessable,cov90,0.8922155688622755,4008,9,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,5,assessable,cov90,0.8932766808297925,4001,9,True,True,as_issued
+conf,CONF21,21,provider,asof,all,m1_lightgbm_v3_raw+pooled,2025,6,assessable,cov90,0.8958698372966207,3995,9,True,True,as_issued

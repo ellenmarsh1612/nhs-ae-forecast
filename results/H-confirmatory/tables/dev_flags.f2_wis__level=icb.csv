@@ -1,0 +1,21 @@
+split,origin_set,n_origins,months,horizons,g1,mode,metric,model,level,target,stat,conf,dev_min,dev_max,n_seasons,outside,reason
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled,icb,att_all,rel,0.0256261583559092,-0.23585056604587207,0.4694279682029794,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled,icb,att_type1,rel,0.007977747815496983,-0.27942141457756764,0.3265644391879601,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled,icb,adm_via_ae,rel,-0.12302198269764164,-0.17407974903480672,0.11617525413014484,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled,icb,geometric mean,rel,-0.03214659943377851,-0.1876416287594297,0.25679504158712696,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled + MinT,icb,att_all,rel,-0.005373049180851575,-0.11780794102482106,0.6123092050663634,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled + MinT,icb,att_type1,rel,-0.1256681895854238,-0.23503916911499212,0.46339947263962644,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled + MinT,icb,adm_via_ae,rel,-0.12427612595425874,-0.037955904097792814,0.2538778919903535,5,True,
+conf,W5,5,winter,3,as_issued,asof,wis,ETS + pooled + MinT,icb,geometric mean,rel,-0.08679580613400961,-0.1335653907671137,0.43556267351478994,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled,icb,att_all,rel,0.0,0.0,0.0,5,,the reference itself: rel 0 by construction on both sides
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled,icb,att_type1,rel,0.0,0.0,0.0,5,,the reference itself: rel 0 by construction on both sides
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled,icb,adm_via_ae,rel,0.0,0.0,0.0,5,,the reference itself: rel 0 by construction on both sides
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled,icb,geometric mean,rel,0.0,0.0,0.0,5,,the reference itself: rel 0 by construction on both sides
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled + MinT,icb,att_all,rel,-0.11665446127737888,-0.05149545106093811,0.3575244741853414,5,True,
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled + MinT,icb,att_type1,rel,0.1301747679993548,-0.15420903743111536,0.2009394426192821,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled + MinT,icb,adm_via_ae,rel,0.08355990027728732,0.057266007274874076,0.25827253910767434,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M1 + pooled + MinT,icb,geometric mean,rel,0.026541198878016647,0.014849345374057688,0.2706165225296917,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M2 frozen (m2d_corr),icb,att_all,rel,0.2067521167456392,-0.29505708600310043,0.25441567718486,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M2 frozen (m2d_corr),icb,att_type1,rel,0.2449777252362073,-0.24322533695007298,0.16227700688129354,5,True,
+conf,W5,5,winter,3,as_issued,asof,wis,M2 frozen (m2d_corr),icb,adm_via_ae,rel,0.2680817722356563,-0.25292880079271174,0.4559257810576185,5,False,
+conf,W5,5,winter,3,as_issued,asof,wis,M2 frozen (m2d_corr),icb,geometric mean,rel,0.23967821722415983,-0.2410983292391915,0.2851785011320871,5,False,

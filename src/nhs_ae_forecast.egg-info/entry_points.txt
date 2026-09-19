@@ -1,0 +1,4 @@
+[console_scripts]
+nhs-ae-backtest = nhs_ae.evaluate.cli:main
+nhs-ae-forecast = nhs_ae.live:main
+nhs-ae-ingest = nhs_ae.ingest.cli:main

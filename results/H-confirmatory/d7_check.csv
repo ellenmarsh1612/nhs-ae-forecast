@@ -1,0 +1,35 @@
+model_key,model,level,mode,origin,reference,n_ref,n_new,only_ref,only_new,nan_mismatch,max_abs_diff,identical,statistic,median_ratio,p95_ratio,median_limit,p95_limit,within_limits
+b0,b0_seasonal_naive,provider,asof,2025-08-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b0,b0_seasonal_naive,provider,asof,2025-09-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,england,asof,2025-08-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,england,asof,2025-09-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,icb,asof,2025-08-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,icb,asof,2025-09-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,provider,asof,2025-08-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,provider,asof,2025-09-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,region,asof,2025-08-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b1,b1_ets,region,asof,2025-09-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,england,asof,2025-08-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,england,asof,2025-09-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,icb,asof,2025-08-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,icb,asof,2025-09-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,provider,asof,2025-08-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,provider,asof,2025-09-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,region,asof,2025-08-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+b2,b2_stl_arima,region,asof,2025-09-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1,m1_lightgbm,provider,asof,2025-08-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1,m1_lightgbm,provider,asof,2025-09-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,england,asof,2025-08-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,england,asof,2025-09-01,2025-07-01,162,162,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,icb,asof,2025-08-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,icb,asof,2025-09-01,2025-07-01,5832,5832,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,provider,asof,2025-08-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,provider,asof,2025-09-01,2025-07-01,32886,32886,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,region,asof,2025-08-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m1_v3_raw,m1_lightgbm_v3_raw,region,asof,2025-09-01,2025-07-01,1134,1134,0,0,0,0.0,True,max abs difference (0 expected),,,,,
+m2,m2d_corr,england,asof,2025-08-01,2025-07-01,162,162,0,0,0,30534.5,False,seed stability,0.02685155644456585,0.0791791962712106,0.05,0.2,True
+m2,m2d_corr,icb,asof,2025-08-01,2025-07-01,5832,5832,0,0,0,4323.250000000029,False,seed stability,0.022106183200354138,0.08284782894201065,0.05,0.2,True
+m2,m2d_corr,region,asof,2025-08-01,2025-07-01,1134,1134,0,0,0,7800.17499999993,False,seed stability,0.021908259092309097,0.0857396356080716,0.05,0.2,True
+m2,m2d_corr,england,asof,2025-09-01,2025-07-01,162,162,0,0,0,29485.175000000047,False,seed stability,0.020990160481055346,0.07647318877019446,0.05,0.2,True
+m2,m2d_corr,icb,asof,2025-09-01,2025-07-01,5832,5832,0,0,0,3138.375,False,seed stability,0.018795078759752233,0.07679501581161143,0.05,0.2,True
+m2,m2d_corr,region,asof,2025-09-01,2025-07-01,1134,1134,0,0,0,6985.700000000012,False,seed stability,0.017187854722639173,0.07300683571002964,0.05,0.2,True

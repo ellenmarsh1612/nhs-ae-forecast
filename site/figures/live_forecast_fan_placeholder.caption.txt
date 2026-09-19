@@ -1,0 +1,1 @@
+Placeholder. The live forecast for December 2026 to March 2027 is published on 31 October 2026; site/fan_chart.py draws the real fan chart from forecasts/2026-10/ets/quantiles.parquet once that file exists.

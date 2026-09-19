@@ -1,0 +1,283 @@
+split,origin_set,n_origins,level,mode,months,model,oyear,horizon,region,stat,value,n,origins,assessed,met,g1
+dev,DEV,69,england,asof,all,ETS + pooled,2018,1,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,2,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,3,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,4,assessable,cov90,0.7407407407407407,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,5,assessable,cov90,0.8148148148148148,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,6,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,1,assessable,cov90,0.8333333333333334,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,2,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,3,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,4,assessable,cov90,0.9393939393939394,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,5,assessable,cov90,0.9666666666666667,30,10,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,6,assessable,cov90,0.8888888888888888,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,1,assessable,cov90,1.0,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,2,assessable,cov90,1.0,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,1,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,2,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,3,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,4,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,5,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,6,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,1,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,2,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,3,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,4,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,5,assessable,cov90,0.8888888888888888,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,6,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,1,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,2,assessable,cov90,0.9696969696969697,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,3,assessable,cov90,0.9666666666666667,30,10,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,4,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,5,assessable,cov90,0.9166666666666666,24,8,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,6,assessable,cov90,0.9047619047619048,21,7,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,4,covid_window,cov90,0.0,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,5,covid_window,cov90,0.0,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,6,covid_window,cov90,0.0,9,3,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,1,covid_window,cov90,0.7,30,10,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,2,covid_window,cov90,0.7272727272727273,33,11,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,3,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,4,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,5,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,6,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,1,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,2,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,3,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,4,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,5,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,6,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,1,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,2,assessable,cov50,0.4074074074074074,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,3,assessable,cov50,0.4444444444444444,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,4,assessable,cov50,0.4074074074074074,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,5,assessable,cov50,0.2962962962962963,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2018,6,assessable,cov50,0.2962962962962963,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,1,assessable,cov50,0.4166666666666667,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,2,assessable,cov50,0.5277777777777778,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,3,assessable,cov50,0.6388888888888888,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,4,assessable,cov50,0.5757575757575758,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,5,assessable,cov50,0.7666666666666667,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,6,assessable,cov50,0.7407407407407407,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,1,assessable,cov50,0.5,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,2,assessable,cov50,1.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,1,assessable,cov50,0.7222222222222222,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,2,assessable,cov50,0.7777777777777778,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,3,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,4,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,5,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,6,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,1,assessable,cov50,0.6666666666666666,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,2,assessable,cov50,0.5,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,3,assessable,cov50,0.3888888888888889,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,4,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,5,assessable,cov50,0.6388888888888888,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2022,6,assessable,cov50,0.7222222222222222,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,1,assessable,cov50,0.75,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,2,assessable,cov50,0.7878787878787878,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,3,assessable,cov50,0.7,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,4,assessable,cov50,0.6296296296296297,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,5,assessable,cov50,0.7083333333333334,24,8,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2023,6,assessable,cov50,0.6190476190476191,21,7,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,4,covid_window,cov50,0.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,5,covid_window,cov50,0.0,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2019,6,covid_window,cov50,0.0,9,3,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,1,covid_window,cov50,0.3,30,10,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,2,covid_window,cov50,0.36363636363636365,33,11,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,3,covid_window,cov50,0.3611111111111111,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,4,covid_window,cov50,0.3055555555555556,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,5,covid_window,cov50,0.3333333333333333,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2020,6,covid_window,cov50,0.4166666666666667,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,1,covid_window,cov50,0.5555555555555556,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,2,covid_window,cov50,0.6666666666666666,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,3,covid_window,cov50,0.5,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,4,covid_window,cov50,0.5555555555555556,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,5,covid_window,cov50,0.5555555555555556,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled,2021,6,covid_window,cov50,0.6111111111111112,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,1,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,2,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,3,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,4,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,5,assessable,cov90,0.9629629629629629,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,6,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,1,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,2,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,3,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,4,assessable,cov90,1.0,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,5,assessable,cov90,1.0,30,10,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,6,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,1,assessable,cov90,1.0,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,2,assessable,cov90,1.0,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,1,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,2,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,3,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,4,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,5,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,6,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,1,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,2,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,3,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,4,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,5,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,6,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,1,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,2,assessable,cov90,1.0,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,3,assessable,cov90,1.0,30,10,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,4,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,5,assessable,cov90,1.0,24,8,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,6,assessable,cov90,1.0,21,7,True,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,4,covid_window,cov90,0.0,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,5,covid_window,cov90,0.0,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,6,covid_window,cov90,0.0,9,3,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,1,covid_window,cov90,0.7333333333333333,30,10,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,2,covid_window,cov90,0.696969696969697,33,11,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,3,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,4,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,5,covid_window,cov90,0.6666666666666666,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,6,covid_window,cov90,0.6944444444444444,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,1,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,2,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,3,covid_window,cov90,0.8888888888888888,18,6,False,True,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,4,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,5,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,6,covid_window,cov90,1.0,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,1,assessable,cov50,0.8888888888888888,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,2,assessable,cov50,0.5925925925925926,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,3,assessable,cov50,0.7037037037037037,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,4,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,5,assessable,cov50,0.48148148148148145,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2018,6,assessable,cov50,0.5925925925925926,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,1,assessable,cov50,0.6111111111111112,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,2,assessable,cov50,0.6666666666666666,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,3,assessable,cov50,0.8055555555555556,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,4,assessable,cov50,0.8181818181818182,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,5,assessable,cov50,0.8666666666666667,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,6,assessable,cov50,0.8148148148148148,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,1,assessable,cov50,0.6666666666666666,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,2,assessable,cov50,1.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,1,assessable,cov50,0.9444444444444444,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,2,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,3,assessable,cov50,0.9444444444444444,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,4,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,5,assessable,cov50,1.0,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,6,assessable,cov50,0.8888888888888888,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,1,assessable,cov50,0.7222222222222222,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,2,assessable,cov50,0.6666666666666666,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,3,assessable,cov50,0.6666666666666666,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,4,assessable,cov50,0.8333333333333334,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,5,assessable,cov50,0.7777777777777778,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2022,6,assessable,cov50,0.8055555555555556,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,1,assessable,cov50,0.8611111111111112,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,2,assessable,cov50,0.7878787878787878,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,3,assessable,cov50,0.8666666666666667,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,4,assessable,cov50,0.7777777777777778,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,5,assessable,cov50,0.7916666666666666,24,8,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2023,6,assessable,cov50,0.8095238095238095,21,7,True,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,4,covid_window,cov50,0.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,5,covid_window,cov50,0.0,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2019,6,covid_window,cov50,0.0,9,3,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,1,covid_window,cov50,0.43333333333333335,30,10,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,2,covid_window,cov50,0.3939393939393939,33,11,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,3,covid_window,cov50,0.4166666666666667,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,4,covid_window,cov50,0.4444444444444444,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,5,covid_window,cov50,0.3611111111111111,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2020,6,covid_window,cov50,0.3888888888888889,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,1,covid_window,cov50,0.7222222222222222,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,2,covid_window,cov50,0.5,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,3,covid_window,cov50,0.5,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,4,covid_window,cov50,0.5,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,5,covid_window,cov50,0.6111111111111112,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,ETS + pooled + MinT,2021,6,covid_window,cov50,0.6111111111111112,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,1,assessable,cov90,0.3333333333333333,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,2,assessable,cov90,0.7037037037037037,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,3,assessable,cov90,0.7777777777777778,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,4,assessable,cov90,0.5555555555555556,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,5,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,6,assessable,cov90,0.6666666666666666,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,1,assessable,cov90,0.4722222222222222,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,2,assessable,cov90,0.6666666666666666,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,3,assessable,cov90,0.75,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,4,assessable,cov90,0.8181818181818182,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,5,assessable,cov90,0.9,30,10,True,True,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,6,assessable,cov90,0.9259259259259259,27,9,True,True,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,1,assessable,cov90,0.5,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,2,assessable,cov90,0.3333333333333333,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,1,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,2,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,3,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,4,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,5,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,6,assessable,cov90,1.0,18,6,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,1,assessable,cov90,0.8055555555555556,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,2,assessable,cov90,0.9444444444444444,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,3,assessable,cov90,0.9166666666666666,36,12,True,True,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,4,assessable,cov90,0.9722222222222222,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,5,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,6,assessable,cov90,1.0,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,1,assessable,cov90,0.8055555555555556,36,12,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,2,assessable,cov90,0.9696969696969697,33,11,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,3,assessable,cov90,1.0,30,10,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,4,assessable,cov90,1.0,27,9,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,5,assessable,cov90,1.0,24,8,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,6,assessable,cov90,1.0,21,7,True,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,4,covid_window,cov90,0.0,3,1,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,5,covid_window,cov90,0.0,6,2,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,6,covid_window,cov90,0.0,9,3,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,1,covid_window,cov90,0.3333333333333333,30,10,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,2,covid_window,cov90,0.30303030303030304,33,11,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,3,covid_window,cov90,0.3611111111111111,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,4,covid_window,cov90,0.4166666666666667,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,5,covid_window,cov90,0.3611111111111111,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,6,covid_window,cov90,0.4444444444444444,36,12,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,1,covid_window,cov90,0.6666666666666666,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,2,covid_window,cov90,0.5,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,3,covid_window,cov90,0.5,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,4,covid_window,cov90,0.5555555555555556,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,5,covid_window,cov90,0.6111111111111112,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,6,covid_window,cov90,0.6666666666666666,18,6,False,False,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,1,assessable,cov50,0.18518518518518517,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,2,assessable,cov50,0.37037037037037035,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,3,assessable,cov50,0.37037037037037035,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,4,assessable,cov50,0.2962962962962963,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,5,assessable,cov50,0.5555555555555556,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2018,6,assessable,cov50,0.2962962962962963,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,1,assessable,cov50,0.2222222222222222,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,2,assessable,cov50,0.3611111111111111,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,3,assessable,cov50,0.3333333333333333,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,4,assessable,cov50,0.36363636363636365,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,5,assessable,cov50,0.23333333333333334,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,6,assessable,cov50,0.5185185185185185,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,1,assessable,cov50,0.0,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,2,assessable,cov50,0.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,1,assessable,cov50,0.3333333333333333,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,2,assessable,cov50,0.3888888888888889,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,3,assessable,cov50,0.7777777777777778,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,4,assessable,cov50,0.6666666666666666,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,5,assessable,cov50,0.7777777777777778,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,6,assessable,cov50,0.7222222222222222,18,6,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,1,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,2,assessable,cov50,0.5833333333333334,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,3,assessable,cov50,0.5555555555555556,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,4,assessable,cov50,0.6944444444444444,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,5,assessable,cov50,0.7777777777777778,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2022,6,assessable,cov50,0.8055555555555556,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,1,assessable,cov50,0.4166666666666667,36,12,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,2,assessable,cov50,0.7878787878787878,33,11,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,3,assessable,cov50,0.8333333333333334,30,10,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,4,assessable,cov50,0.7777777777777778,27,9,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,5,assessable,cov50,0.875,24,8,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2023,6,assessable,cov50,0.9523809523809523,21,7,True,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,4,covid_window,cov50,0.0,3,1,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,5,covid_window,cov50,0.0,6,2,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2019,6,covid_window,cov50,0.0,9,3,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,1,covid_window,cov50,0.23333333333333334,30,10,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,2,covid_window,cov50,0.12121212121212122,33,11,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,3,covid_window,cov50,0.1111111111111111,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,4,covid_window,cov50,0.1111111111111111,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,5,covid_window,cov50,0.2222222222222222,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2020,6,covid_window,cov50,0.16666666666666666,36,12,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,1,covid_window,cov50,0.3333333333333333,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,2,covid_window,cov50,0.2777777777777778,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,3,covid_window,cov50,0.2222222222222222,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,4,covid_window,cov50,0.3333333333333333,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,5,covid_window,cov50,0.2777777777777778,18,6,False,,as_issued
+dev,DEV,69,england,asof,all,M2 frozen (m2d_corr),2021,6,covid_window,cov50,0.2222222222222222,18,6,False,,as_issued

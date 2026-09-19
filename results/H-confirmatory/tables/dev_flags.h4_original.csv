@@ -1,0 +1,13 @@
+split,origin_set,n_origins,months,horizons,g1,level,mode,metric,model,target,stat,conf,dev_min,dev_max,n_seasons,outside,reason
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b1_ets,att_all,delta_pp,-0.1507220324013403,-1.222371639775166,7.657743307490006,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b1_ets,att_type1,delta_pp,0.001973155057288789,-0.14383408713142254,9.634556973506347,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b1_ets,adm_via_ae,delta_pp,-0.04815775668969291,-0.8381085778760067,7.217408909427925,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b2_stl_arima,att_all,delta_pp,-0.18696768953262444,-1.0730792799475086,6.312172187747079,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b2_stl_arima,att_type1,delta_pp,0.009304200886106617,-0.4059644258399109,7.528818086800593,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,b2_stl_arima,adm_via_ae,delta_pp,-0.06701267539697131,-0.9599465783742267,5.775538328834906,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm,att_all,delta_pp,-0.017433481834139286,-1.620652603030659,11.042501255347903,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm,att_type1,delta_pp,0.002474085694148531,-2.606144566732771,10.226480946017514,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm,adm_via_ae,delta_pp,-0.13394115498488457,-0.8339293326086294,7.04389182927353,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm_v3_raw,att_all,delta_pp,0.07725908492788314,-1.1675334435945595,9.936851048545792,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm_v3_raw,att_type1,delta_pp,0.21800783877141683,-0.13603987663912687,9.533221062159136,5,False,
+conf,W5,5,winter,3,as_issued,provider,final vs asof,wis,m1_lightgbm_v3_raw,adm_via_ae,delta_pp,-0.6580530870512136,-3.561455611796771,6.154742711874417,5,False,

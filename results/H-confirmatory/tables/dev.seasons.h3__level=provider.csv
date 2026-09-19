@@ -1,0 +1,19 @@
+split,origin_set,months,horizons,g1,mode,metric,season,n_origins,fragment,in_range,base,level,stat,value
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,ETS,provider,rel,0.06145977183504425
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,STL+ARIMA,provider,rel,-0.03734975729602996
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2018/19,4,False,True,M1,provider,rel,0.31946601933716545
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,ETS,provider,rel,0.01141385579668941
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,STL+ARIMA,provider,rel,0.04518502954050452
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2019/20,4,False,True,M1,provider,rel,0.040587960415276125
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,ETS,provider,rel,0.035887856956987374
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,STL+ARIMA,provider,rel,0.01626329391828074
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2020/21,4,False,True,M1,provider,rel,0.15335549767824164
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,ETS,provider,rel,0.150860694297978
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,STL+ARIMA,provider,rel,0.09066884414748122
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2021/22,3,False,True,M1,provider,rel,0.16823115721994308
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,ETS,provider,rel,0.08562478161856246
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,STL+ARIMA,provider,rel,-0.03433521185212385
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2022/23,4,False,True,M1,provider,rel,-0.038571685789408394
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,ETS,provider,rel,0.09419794122694047
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,STL+ARIMA,provider,rel,0.2972416677639871
+dev,20 origins 2018-10..2023-10,winter,3,as_issued,asof,wis,2023/24,1,True,False,M1,provider,rel,0.4145981962686702
