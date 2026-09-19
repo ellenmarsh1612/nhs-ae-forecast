@@ -6,10 +6,9 @@ What is left out, and why:
 * ``data/raw/`` (106 MB of archived NHS England files). Redistributable under the Open
   Government Licence, but large and rebuildable: ``nhs-ae-ingest run`` fetches it. The
   1.9 MB processed panel ships instead, so nothing here needs a download to check.
-* documents whose claims the confirmatory run no longer supports (``docs/results.md``,
-  ``docs/project_dossier.md``, ``docs/memo_draft.md``, ``docs/scope.md``,
-  ``docs/build_strategy.md``, ``docs/m2f_redesign.md``), by the maintainer's decision of
-  2026-09-19. They stay in the private repository; site/REPORT.md lists every claim.
+* nothing on grounds of staleness any more. The development-window documents were held back
+  on 2026-09-19 while their claims were out of date, corrected the same day, and are now
+  shipped with the dated banners that say what the confirmatory run overturned.
 * ``docs/stage_h_run_sheet.md``, a machine-specific runbook holding absolute paths.
 * the monthly ingest workflow, which commits to its own repository and fetches from NHS
   England on a schedule. The public snapshot gets a test workflow instead.
@@ -46,6 +45,14 @@ FILES = [
     "docs/handover.md",
     "docs/portfolio_brief.md",
     "docs/d1_precommitments.md",
+    # the development-window record. Each of these was corrected on 2026-09-19 and carries a
+    # dated banner naming what the confirmatory run overturned; see site/REPORT.md section 6
+    "docs/results.md",
+    "docs/project_dossier.md",
+    "docs/memo_draft.md",
+    "docs/scope.md",
+    "docs/build_strategy.md",
+    "docs/m2f_redesign.md",
     "tools/render_amendment_log.py",
     # the confirmatory run's own record, byte-identical
     "results/H-confirmatory/confirmatory_results.md",
@@ -429,6 +436,26 @@ See `PROVENANCE.md` for what this snapshot is, what was left out of it and why, 
 not be found in a tracked file, and every place two files disagree.
 """
 
+SUPPORT["results/README.md"] = """
+# Results in this snapshot
+
+The full working repository holds twenty result directories; this snapshot ships the ones a
+reader needs to check the confirmatory claims, plus the sources `site/build_numbers.py`
+reads. The development-window documents in `docs/` cite the others by name.
+
+| Path | What it holds |
+|---|---|
+| `H-confirmatory/` | **The confirmatory run** of 2026-09-15 (tag `conf-run-v1`): `verdicts.json`, 175 tables under `tables/`, the run's `provenance.json`, its `unseal_entry.json`, the P13 and D7 integrity checks, the M2 fit diagnostics and the timings. Summarised in `docs/confirmatory_results.md` |
+| `unseal_log.jsonl` | The sealed window was opened once. This is that one line |
+| `F-reconciliation/`, `F-reconciliation-G1/` | H3 and F2 on the development window. **Read the G1 re-run**: without that guard, ETS's all-zero forecasts at origin 2020-05 turn its rows into artefacts (+3,449% at provider level, against +5.4% guarded) |
+| `G-decision/` | The decision layer, **illustrative only**: `occupancy_validation.md` records the registered check failing at 8.7 pp against a 5 pp tolerance, and every table derived from it carries that label |
+| `D-calibration/` | Coverage by origin-year and horizon for the calibration candidates, including the 2020 COVID cells the confirmatory table excludes by design |
+| `A-noise-floor/` | The seed-noise floor: how much a metric moves when only the random seed changes, which is what any tuning gain has to beat |
+| `m1-tuning/` | The 16 pre-registered hyperparameter configurations and their scores |
+
+Provenance and what was left out: `PROVENANCE.md`. Verification: `site/REPORT.md`.
+"""
+
 PROVENANCE = """
 # Provenance of this snapshot
 
@@ -456,8 +483,21 @@ This repository is a snapshot, without history, of the private working repositor
 * `data/raw/` — 106 MB of archived NHS England files. Rebuild it with
   `nhs-ae-ingest run`, which fetches from NHS England, or `nhs-ae-ingest discover` to list
   the URLs first. The panel above is the parsed result, so nothing here needs it.
-* Documents the confirmatory run no longer supports, and a machine-specific runbook. They
-  remain in the private repository; `site/REPORT.md` lists every claim and where it failed.
+* `docs/stage_h_run_sheet.md`, a machine-specific runbook full of absolute paths.
+* Most result directories. `docs/results.md`, `docs/project_dossier.md` and the other
+  development-window documents cite folders such as `results/E-m2/`, `results/backtest-v1/`
+  and `results/m1-v3/` that are not shipped; the numbers those folders hold are summarised in
+  the documents themselves and in `site/site_numbers.json`.
+
+## The development-window documents
+
+`docs/results.md`, `docs/project_dossier.md`, `docs/memo_draft.md`, `docs/scope.md`,
+`docs/build_strategy.md` and `docs/m2f_redesign.md` are the working record from before the
+sealed window was opened. Several of their claims did not survive it. Each was corrected on
+2026-09-19 and now opens with a dated banner naming what the confirmatory run overturned and
+where the settled position is; `site/REPORT.md` section 6 lists every correction with its
+source. They are annotated rather than rewritten, because the record of what was believed
+when is part of what a pre-registered project is for.
 
 ## Absolute paths in the run records
 

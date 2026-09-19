@@ -132,9 +132,10 @@ Not a disagreement, though it was reported as one: the M2f-r4 COVID figure. Both
 
 ## 6. Claims in `docs/` that the confirmatory results no longer support
 
-All of these are in files **excluded from the public snapshot** by the maintainer's
-decision of 2026-09-19, so none reaches a public reader. **They were then corrected in the
-private repository on 2026-09-19**, as follows:
+These files were first **held back from the public snapshot** on 2026-09-19 while their
+claims were out of date, **corrected the same day**, and then **published with the
+snapshot** once each carried a dated banner saying what the confirmatory run overturned.
+What was corrected:
 
 | File | What was done |
 |---|---|
@@ -219,8 +220,10 @@ through its amendment table.
 2. **`docs/portfolio_brief.md:139`** still describes the repository as private, and its
    asset table points at `docs/results.md`, `docs/project_dossier.md` and
    `docs/memo_draft.md`, which the snapshot excludes. Update it for the published state.
-3. **The corrected documents are annotated, not rewritten** (section 6). If you would rather
-   some of them were rewritten outright — the dossier is the strongest candidate, being four
-   days stale on the central result and self-disclaimed — that is a judgement for you. They
-   could also now be added to the public snapshot, since each carries its corrections.
+3. **The corrected documents are annotated, not rewritten** (section 6), and are now
+   published. If you would rather some were rewritten outright — the dossier is the strongest
+   candidate, being four days stale on the central result and self-disclaimed in its own
+   header — that is a judgement for you. The dossier also cites `CLAUDE_CODE_BRIEF.md` five
+   times; that file sits outside the repository and is not published, so those references
+   cannot be followed by a public reader. Its banner says so.
 4. **The memo must be corrected before it ships to anyone**, on item 4 of section 6.

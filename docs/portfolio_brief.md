@@ -136,7 +136,12 @@ ones; five models; 735 automated tests.
 
 ## 6. Where everything lives
 
-Repository: `nhs-ae-forecast` (private). Paths are relative to its root.
+Two repositories. The public snapshot is
+**https://github.com/ellenmarsh1612/nhs-ae-forecast** — code, tests, the pre-registration and
+its amendments, the confirmatory run's own output, and `site/`. The private working
+repository is `nhs-ae-forecast-dev`, which additionally holds the 106 MB archive of original
+NHS England files and the intermediate result directories. Paths below are relative to the
+repository root and resolve in both, except where noted.
 
 | What you want | Where |
 |---|---|

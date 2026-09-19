@@ -1,7 +1,7 @@
 # Provenance of this snapshot
 
 This repository is a snapshot, without history, of the private working repository
-`nhs-ae-forecast-dev` at commit `4acdd6de08b0d2cf49d5c89fffc3ed8deb8a6786`. It was assembled by
+`nhs-ae-forecast-dev` at commit `9e91021a3b5c55125da5ea28b757da36eee4ea36`. It was assembled by
 `site/build_snapshot.py`, which lists in its own docstring everything left out and why.
 
 ## What is here
@@ -24,8 +24,21 @@ This repository is a snapshot, without history, of the private working repositor
 * `data/raw/` — 106 MB of archived NHS England files. Rebuild it with
   `nhs-ae-ingest run`, which fetches from NHS England, or `nhs-ae-ingest discover` to list
   the URLs first. The panel above is the parsed result, so nothing here needs it.
-* Documents the confirmatory run no longer supports, and a machine-specific runbook. They
-  remain in the private repository; `site/REPORT.md` lists every claim and where it failed.
+* `docs/stage_h_run_sheet.md`, a machine-specific runbook full of absolute paths.
+* Most result directories. `docs/results.md`, `docs/project_dossier.md` and the other
+  development-window documents cite folders such as `results/E-m2/`, `results/backtest-v1/`
+  and `results/m1-v3/` that are not shipped; the numbers those folders hold are summarised in
+  the documents themselves and in `site/site_numbers.json`.
+
+## The development-window documents
+
+`docs/results.md`, `docs/project_dossier.md`, `docs/memo_draft.md`, `docs/scope.md`,
+`docs/build_strategy.md` and `docs/m2f_redesign.md` are the working record from before the
+sealed window was opened. Several of their claims did not survive it. Each was corrected on
+2026-09-19 and now opens with a dated banner naming what the confirmatory run overturned and
+where the settled position is; `site/REPORT.md` section 6 lists every correction with its
+source. They are annotated rather than rewritten, because the record of what was believed
+when is part of what a pre-registered project is for.
 
 ## Absolute paths in the run records
 
