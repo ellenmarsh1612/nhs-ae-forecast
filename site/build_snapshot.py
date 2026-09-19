@@ -148,6 +148,7 @@ def main(argv=None) -> int:
 SUPPORT: dict[str, str] = {}
 
 SUPPORT[".gitignore"] = """
+.snapshot-built-by
 __pycache__/
 *.pyc
 .pytest_cache/
