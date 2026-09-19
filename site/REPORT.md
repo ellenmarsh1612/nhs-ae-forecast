@@ -133,8 +133,24 @@ Not a disagreement, though it was reported as one: the M2f-r4 COVID figure. Both
 ## 6. Claims in `docs/` that the confirmatory results no longer support
 
 All of these are in files **excluded from the public snapshot** by the maintainer's
-decision of 2026-09-19, so none reaches a public reader. They remain in the private
-repository and should be corrected or marked superseded there.
+decision of 2026-09-19, so none reaches a public reader. **They were then corrected in the
+private repository on 2026-09-19**, as follows:
+
+| File | What was done |
+|---|---|
+| `README.md` | The H4 headline restated to the sealed figure (0.4%, with the 0.6% development figure named); the H4b claim corrected to "not confirmed", with 16 of 19 against 0 of 19; the status line replaced (it said "week 1"); the decision-layer bullet now carries its failed validation; the scorecard described as planned; "82 unit tests" and "CSV only; XLS ignored" corrected against the files. |
+| `docs/results.md` | A superseded banner at the head; the ETS reconciliation row now shown beside the G1-guarded figures, with a note to read the guarded one; the "not yet evaluated" list annotated with how all four were settled; the operational-model and best-calibrated claims annotated with D1, D5 and the sealed coverage. |
+| `docs/memo_draft.md` | The inverted caveat replaced: the ranges are wider than nominal (97–98% on the sealed window), with the lopsided-miss point kept and sourced; ICB development coverage corrected to 89–93% (91% pooled) and the all-months figure to 78–81%; the above-range share corrected to 6.7%; trust-level "89–95% since 2021" corrected to 91–96%, verified against the calibration CSV. |
+| `docs/project_dossier.md` | A banner listing every point the confirmatory run overturned, with the corrected values: the tags and the unseal line, the live code and `forecasts/`, H5, H2's M2 direction, 83 amendments not 46, 720 file versions not 500, 121 availability dates not 117, and the NCtR occupancy figures. |
+| `docs/scope.md`, `docs/build_strategy.md` | Banners marking them early planning documents, naming what is now known to be wrong: "revised in place", the scorecard, "all six winters are usable", the file and test counts, and the H4 bound. |
+| `docs/m2f_redesign.md` | A banner recording that D1 came out exclude, so the model was never frozen and runs only as an unpublished shadow. |
+| `docs/d1_precommitments.md` | A banner recording that clause (c)'s ship rule never took effect. |
+| `results/README.md` | The index brought up to date: eleven results directories added, and the unseal log now described as holding one line rather than "empty until Stage H". |
+
+The corrections annotate rather than rewrite. Each stale document keeps its original text
+as the working record, with a dated banner saying what is now known to be wrong and where
+the settled position is. Nothing in `docs/preregistration.md` was touched: it changes only
+through its amendment table.
 
 ### Verified in this session
 
@@ -203,5 +219,8 @@ repository and should be corrected or marked superseded there.
 2. **`docs/portfolio_brief.md:139`** still describes the repository as private, and its
    asset table points at `docs/results.md`, `docs/project_dossier.md` and
    `docs/memo_draft.md`, which the snapshot excludes. Update it for the published state.
-3. **The stale documents in the private repository** (section 6) are still stale there.
+3. **The corrected documents are annotated, not rewritten** (section 6). If you would rather
+   some of them were rewritten outright — the dossier is the strongest candidate, being four
+   days stale on the central result and self-disclaimed — that is a judgement for you. They
+   could also now be added to the public snapshot, since each carries its corrections.
 4. **The memo must be corrected before it ships to anyone**, on item 4 of section 6.

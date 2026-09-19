@@ -1,5 +1,10 @@
 # D1 pre-commitments (WO-A, step 1), written before any 69-origin M2f-r4 fit
 
+> **Applied 2026-09-12: D1 came out `exclude`.** The ship rule in clause (c) therefore never
+> took effect — M2f-r4 is not the live model, and no confirmatory test of it was run. The
+> live model is raw ETS (D5 = (b)). This file is kept as the pre-commitment it was, written
+> before the re-run that decided it.
+
 Sections (a), (b) and (c) are copied verbatim from Ellie's WO-A of 2026-09-12. They were committed before any fit of WO-A's step 2. The commit SHA and time are recorded in the git history, and in `results/E-m2f-69/README.md` beside the first fit's time.
 
 **(a) D1 condition.** D1 = include stands only if the 69-origin re-run reproduces the
