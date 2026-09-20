@@ -1,7 +1,7 @@
 # Provenance of this snapshot
 
 This repository is a snapshot, without history, of the private working repository
-`nhs-ae-forecast-dev` at commit `9e91021a3b5c55125da5ea28b757da36eee4ea36`. It was assembled by
+`nhs-ae-forecast-dev` at commit `59776012d54c616957aa591fb222f8daf280103c`. It was assembled by
 `site/build_snapshot.py`, which lists in its own docstring everything left out and why.
 
 ## What is here
