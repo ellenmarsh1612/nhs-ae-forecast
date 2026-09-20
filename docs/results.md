@@ -7,7 +7,12 @@
 > "not yet evaluated" list (all four have now been evaluated or declared not evaluable);
 > the ETS reconciliation figures (superseded by the G1-guarded re-run); and the
 > operational-model and best-calibrated claims (settled by D1 and D5, and by the sealed
-> window's coverage). `site/REPORT.md` lists every correction with its source.
+> window's coverage). Corrected on 2026-09-20, each against the table named beside it: ETS's
+> horizon-6 coverage (printed 0.85, value 0.8450, `results/backtest-v1/coverage_by_horizon.csv`);
+> "roughly ties ETS on all-types attendances", which holds on MASE but not on WIS
+> (`results/m1-v3/bootstrap_v3_vs_others.csv`); and "every method over-covers for 2021–22
+> origins", which is true of the calibrated methods only. `site/REPORT.md` lists every
+> correction with its source.
 
 > **Status of everything on this page (relabelled 2026-09-10).** Every result below was
 > scored on the full 2019-09 to 2025-09 window *before* it was re-split into DEV and a
@@ -55,7 +60,7 @@ Beating B0 was the pre-registered bar; beating ETS was not, and M1 does not.
 | Horizon | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | M1 | 0.83 | 0.81 | 0.80 | 0.79 | 0.78 | 0.76 |
-| ETS | 0.85 | 0.84 | 0.84 | 0.84 | 0.84 | 0.85 |
+| ETS | 0.85 | 0.84 | 0.84 | 0.84 | 0.84 | 0.84 |
 | STL+ARIMA | 0.76 | 0.79 | 0.80 | 0.81 | 0.81 | 0.82 |
 | B0 | 0.86 | 0.84 | 0.81 | 0.79 | 0.77 | 0.75 |
 
@@ -152,7 +157,8 @@ M1: admissions −2.9% WIS [−4.4%, −1.5%], all types +0.9% [−0.1%, +1.9%],
 
 After the pre-registered tuning and two architectural amendments, the global LightGBM
 model beats the seasonal-naive baseline by 25–40% on every target and horizon (H1
-confirmed in every variant), roughly ties per-series ETS on all-types attendances, and
+confirmed in every variant), ties per-series ETS on all-types attendances on MASE
+(+0.8% [−2.1, +3.3]) while losing to it by 3.6% [+0.5, +6.6] on WIS, and
 trails ETS by 13–17% WIS on admissions and Type 1 attendances at the winter horizon-3
 slice, with 90% coverage of about 0.80 against ETS's 0.84. The per-horizon change is
 worth keeping (v3 is the LightGBM of record from here); the 3-month level is not. The
@@ -172,7 +178,9 @@ only), and H5 is **not evaluable** on any sealed split. See `docs/confirmatory_r
 ## What these results change
 
 - The 31 October forecast should not default to M1. ETS is the best model on two of
-  three targets and, on this development window, the best calibrated at every horizon.
+  three targets and, on this development window, the best calibrated at every horizon beyond
+  the first — at horizon 1 the seasonal-naive baseline is marginally closer to nominal, 0.856
+  against 0.850 (`results/backtest-v1/coverage_by_horizon.csv`, corrected 2026-09-20).
   The candidate operational forecast is ETS, or an ensemble, with M1 kept as the model to
   improve. *(Settled since: D1 = exclude and D5 = (b) made raw ETS the live model on
   2026-09-12, and the ensemble was rejected. On the sealed window ETS is no longer the
@@ -225,8 +233,10 @@ origin-year × horizon cell).
   worse WIS, so the tie-break selects M1 + pooled.
 - **Coverage.** Outside the COVID window the selected method covers 0.89–0.91 at every horizon;
   in winter months it covers 0.86 at horizon 1 and 0.89–0.91 beyond.
-- **Every method over-covers for 2021–22 origins.** Their calibration windows still contain the
-  2020 collapse.
+- **Every *calibrated* method over-covers for 2021–22 origins.** Their calibration windows
+  still contain the 2020 collapse. The uncalibrated and in-model methods go the other way over
+  the same origins: M1 v3 raw covers 0.56–0.68, its in-model conformal 0.81–0.87 and EnbPI
+  0.80–0.90 (`results/D-calibration/coverage_by_horizon_year.csv`).
 - **DtACI as registered fails.** When its level reaches zero it reads the largest pooled score,
   and during and after COVID that score widens intervals by orders of magnitude (one 97.5%
   bound of 1.4 billion attendances). Its typical forecast is no worse than pooled conformal:
