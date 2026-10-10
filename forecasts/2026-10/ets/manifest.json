@@ -1,0 +1,62 @@
+{
+ "origin": "2026-10",
+ "model": "ets",
+ "model_tag": "prereg-v1 (B1 ETS)",
+ "tag_is_ancestor_of_head": true,
+ "code_commit": "3503f3d59f4aed90b56405b520e868f742482fc7",
+ "tree_dirty_outside_forecasts": false,
+ "as_of": "2026-10-08",
+ "snapshot": "2026-10-08",
+ "training_ends": "2026-09",
+ "periods": {
+  "h1": "2026-10",
+  "h2": "2026-11",
+  "h3": "2026-12",
+  "h4": "2027-01",
+  "h5": "2027-02",
+  "h6": "2027-03"
+ },
+ "inputs": {
+  "vintages": {
+   "path": "data/processed/ae_monthly_all_vintages.parquet",
+   "sha256": "f7faae9247ead7e26b750b14e18277cdacd6bdd07f35e858b47074f7d6e0a598"
+  },
+  "manifest": {
+   "path": "data/raw/manifest.jsonl",
+   "sha256": "7e37f11d9ff2d810ccce674baebf0cb0fc694c3c7ae61eaec8326d8a30ca20f5"
+  },
+  "provider_icb_map": {
+   "path": "data/reference/provider_icb_map.csv",
+   "sha256": "9fd39fdae605f679b7fff4723b7cd00f179f9e4c7e632b9a129a3968df32a8e2"
+  },
+  "kh03": {
+   "path": "data/processed/kh03.parquet",
+   "sha256": "b15ead1b18ce9be8f79f55a5d241d028576f326ffa05f25bc0dde8bd93866276"
+  }
+ },
+ "sampling": [],
+ "rows": {
+  "icb": 5832,
+  "region": 1134,
+  "england": 162
+ },
+ "coherence_gap": {
+  "region": 0.0017122849580739961,
+  "england": 0.0006467279419902508
+ },
+ "checks_failed": [],
+ "environment": {
+  "python": "3.13.12",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "pymc": "6.3.2",
+  "pytensor": "3.3.1",
+  "nutpie": "0.16.11",
+  "arviz": "1.3.0"
+ },
+ "calibration": "none: posterior (M2f-r4) or native (ETS) intervals; no conformal step, no calibration pool"
+}

@@ -15,7 +15,7 @@ calibration layer, the same forecasts contain it **87.5-90.3%** of the time — 
 tolerance band registered before the test data were opened.
 
 Everything here was pre-registered: hypotheses, decision rules and a sealed evaluation
-window, with 83 dated amendments and a single, logged opening of the seal.
+window, with 84 dated amendments and a single, logged opening of the seal.
 
 > **What "sealed" does and does not mean.** The window 2024-01 to 2025-09 was sealed going
 > forward, not unseen. The baselines and the machine-learning model had been scored on those
@@ -54,6 +54,7 @@ fresh-clone verification: what was run, how long it took and what passed.
 | `docs/confirmatory_results.md` | What the sealed run found, hypothesis by hypothesis, with the caveats |
 | `docs/confirmatory_plan.md`, `docs/stage_h_design.md` | How the run was specified and policed before it was allowed to start |
 | `docs/handover.md` | How the live forecast is produced, checked and published |
+| `docs/live/2026-10_publication_note.md`, `forecasts/2026-10/ets/` | The first live forecast (origin 2026-10, winter 2026-27): the published raw ETS quantiles, their run manifest, and the note that states their limits |
 | `results/H-confirmatory/` | The run's own output: verdicts, 175 tables, provenance, the unseal record |
 | `results/F-reconciliation*/`, `results/G-decision/` | Reconciliation and decision-layer summaries |
 | `site/site_numbers.json` | Every number the portfolio site may show, each with the file it was read from |
