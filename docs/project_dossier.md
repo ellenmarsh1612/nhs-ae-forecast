@@ -43,8 +43,8 @@ calibration is exactly the thing that looks fine until it is tested out of sampl
 
 | Fact | Value | Source |
 |---|---|---|
-| Archived file versions | 720 | `data/raw/manifest.jsonl` |
-| Dates on which a version became current | 121 | same |
+| Archived file versions | 501 (as at 2026-09-15; corrected 2026-10-10 from 720, which also counted 219 rows recording an unchanged file seen again) | `data/raw/manifest.jsonl`, rows with `stored: true` |
+| Dates on which a version became current | 118 (corrected 2026-10-10 from 121, which counted three dates with re-sightings only) | same |
 | Panel rows (provider × month × version) | 1,072,039 | `data/processed/ae_monthly_all_vintages.parquet` |
 | Period range | 2015-06 to 2026-08 | same |
 | Provider codes over the whole history | 332 | same |

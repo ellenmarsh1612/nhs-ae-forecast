@@ -515,10 +515,18 @@ add("vintage_recovered_from", "the Internet Archive's captures of the NHS Englan
 
 manifest = (ROOT / "data" / "raw" / "manifest.jsonl")
 lines = [json.loads(x) for x in manifest.read_text().splitlines() if x.strip()]
-add("vintage_file_versions", len(lines), "count",
-    "File versions recorded in the vintage manifest: one row per published file version.",
+# Only stored rows are file versions. The others are sightings: a later fetch that found an
+# already-archived file unchanged, recorded with stored: false and no new file. Counting every
+# row (as this did until 2026-10-10) published 720 versions and 121 dates where there were
+# 501 and 118.
+stored = [l for l in lines if l.get("stored")]
+add("vintage_file_versions", len(stored), "count",
+    "File versions archived in the vintage manifest: one stored row per distinct published file version.",
     rel(manifest), "development")
-snapshots = sorted({l["available_from"][:10] for l in lines if l.get("available_from")})
+add("vintage_sightings", len(lines) - len(stored), "count",
+    "Manifest rows that record an already-archived file seen again unchanged (stored: false); not file versions.",
+    rel(manifest), "development")
+snapshots = sorted({l["available_from"][:10] for l in stored if l.get("available_from")})
 add("vintage_snapshot_dates", len(snapshots), "count",
     "Distinct dates on which a file version became current (manifest available_from).",
     rel(manifest), "development",

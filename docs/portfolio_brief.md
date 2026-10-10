@@ -129,8 +129,8 @@ were opened. On the sealed window its intervals cover 97–98% where 90% is inte
 erring towards over-warning. That is stated with the forecast rather than fixed after the
 fact, because changing the model in response to sealed-window results would contaminate it.
 
-**Scale, for the "how big is this" line:** 720 file versions archived across 118 snapshot
-dates; a panel of 1,072,039 rows covering June 2015 to August 2026; 332 provider codes (about
+**Scale, for the "how big is this" line:** 501 file versions archived across 118 snapshot
+dates (as at 2026-09-15; corrected on 2026-10-10 from "720", which also counted re-sightings of unchanged files); a panel of 1,072,039 rows covering June 2015 to August 2026; 332 provider codes (about
 195 reporting in any month); 36 ICBs, 7 regions, England; 69 development origins and 19 sealed
 ones; five models; 735 automated tests.
 

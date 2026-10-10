@@ -1426,7 +1426,7 @@
     "value": 8.7,
     "unit": "percentage points",
     "description": "Median absolute error of the registered occupancy reconstruction against published KH03 occupancy, outside the COVID window, over 2,274 trust-quarters.",
-    "source_path": "docs/amendment_log.md:479",
+    "source_path": "docs/amendment_log.md:480",
     "label": "development",
     "caveat": ""
   },
@@ -1435,7 +1435,7 @@
     "value": 5.0,
     "unit": "percentage points",
     "description": "Registered tolerance the reconstruction had to meet: median absolute error at most this, and at least 80% of trust-quarters within 10 points.",
-    "source_path": "docs/amendment_log.md:93",
+    "source_path": "docs/amendment_log.md:94",
     "label": "development",
     "caveat": ""
   },
@@ -1498,7 +1498,7 @@
   },
   {
     "id": "amendments_total",
-    "value": 83,
+    "value": 84,
     "unit": "count",
     "description": "Amendments recorded in the pre-registration's amendment table.",
     "source_path": "docs/amendment_log.md",
@@ -1507,7 +1507,7 @@
   },
   {
     "id": "amendments_after_freeze",
-    "value": 71,
+    "value": 72,
     "unit": "count",
     "description": "Amendments dated after the freeze of 2026-09-09. The remainder are dated on or before it and are marked pre-freeze in their own text.",
     "source_path": "docs/amendment_log.md",
@@ -1568,33 +1568,42 @@
     "value": "the Internet Archive's captures of the NHS England year pages",
     "unit": "provenance",
     "description": "Where file versions from before the vintage archive existed were recovered from.",
-    "source_path": "docs/preregistration.md:303",
+    "source_path": "docs/preregistration.md:304",
     "label": "development",
     "caveat": "The pre-registration's own check: '263 recovered files have an Internet Archive capture', each verified against the NHS England server. Files still on the server are fetched from it directly."
   },
   {
     "id": "vintage_file_versions",
-    "value": 720,
+    "value": 502,
     "unit": "count",
-    "description": "File versions recorded in the vintage manifest: one row per published file version.",
+    "description": "File versions archived in the vintage manifest: one stored row per distinct published file version.",
+    "source_path": "data/raw/manifest.jsonl",
+    "label": "development",
+    "caveat": ""
+  },
+  {
+    "id": "vintage_sightings",
+    "value": 354,
+    "unit": "count",
+    "description": "Manifest rows that record an already-archived file seen again unchanged (stored: false); not file versions.",
     "source_path": "data/raw/manifest.jsonl",
     "label": "development",
     "caveat": ""
   },
   {
     "id": "vintage_snapshot_dates",
-    "value": 121,
+    "value": 119,
     "unit": "count",
     "description": "Distinct dates on which a file version became current (manifest available_from).",
     "source_path": "data/raw/manifest.jsonl",
     "label": "development",
-    "caveat": "2015-08-13 to 2026-09-15. Counted from the manifest, which travels with every copy of this repository; the private working repository also holds one directory per snapshot under data/raw, and site/REPORT.md records how the two counts differ."
+    "caveat": "2015-08-13 to 2026-10-08. Counted from the manifest, which travels with every copy of this repository; the private working repository also holds one directory per snapshot under data/raw, and site/REPORT.md records how the two counts differ."
   },
   {
     "id": "vintage_period_range",
     "value": [
       "2015-06",
-      "2026-08"
+      "2026-09"
     ],
     "unit": "month range",
     "description": "Range of data months covered by the archived file versions.",
@@ -1613,7 +1622,7 @@
   },
   {
     "id": "scale_panel_rows",
-    "value": 1072039,
+    "value": 1075495,
     "unit": "count",
     "description": "Rows in the vintage panel: one per provider, month and file version.",
     "source_path": "data/processed/ae_monthly_all_vintages.parquet",
@@ -1631,7 +1640,7 @@
   },
   {
     "id": "scale_provider_codes_typical_month",
-    "value": 217,
+    "value": 216,
     "unit": "count",
     "description": "Distinct provider codes appearing in a typical month across all archived versions of that month (median over months).",
     "source_path": "data/processed/ae_monthly_all_vintages.parquet",

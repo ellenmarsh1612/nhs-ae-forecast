@@ -3,7 +3,7 @@
 > **Early planning document (2026-09-08), kept as a record.** Superseded where it disagrees
 > with `docs/confirmatory_results.md`. Known to be wrong now: "All six winters are usable"
 > (the sealed window gives **one** winter, five origins, which is the caveat on every winter
-> statistic); "500 files" archived (720 versions in `data/raw/manifest.jsonl`); "32 tests
+> statistic); "500 files" archived (501 stored versions in `data/raw/manifest.jsonl` as at 2026-09-15; this banner said 720 until 2026-10-10, a count that included re-sightings); "32 tests
 > pass" (the suite is 735 collected tests); and the H4 bound quoted as ±0.5% (the
 > development figure is −0.57% and the sealed figure 0.37%).
 
