@@ -2,8 +2,9 @@
 
 For whoever builds the public page about this project. It says what the work is, what it
 found, what may and may not be claimed, and where every number and asset lives in the
-repository. Written 2026-09-18, after the confirmatory run; the live forecast is published on
-31 October 2026, so the site needs a slot for it.
+repository. Written 2026-09-18, after the confirmatory run. Updated 2026-10-12: the first live
+forecast is out (public repository, 10 October 2026), the repository is public, and the counts
+below are current.
 
 Everything below is sourced. Where a figure has a file path next to it, that file is the
 authority — use it rather than retyping from this page.
@@ -62,7 +63,7 @@ That last one is the differentiator. Most portfolio projects show only what work
 - The forecasts beat the standard seasonal-naive baseline by 38–48% in winter, at the horizon
   planners care about.
 - The whole thing was pre-registered: hypotheses, decision rules and sealed data, with an
-  83-entry amendment log, and the confirmatory data were opened exactly once.
+  84-entry amendment log, and the confirmatory data were opened exactly once.
 
 **Do not write any of these.** They are wrong, and a knowledgeable reader will catch them:
 
@@ -73,6 +74,7 @@ That last one is the differentiator. Most portfolio projects show only what work
 | "Proved" / "shows conclusively" | The winter tests rest on one winter (five forecast origins). Two of three reconciliation verdicts flip if a single month is dropped. | "Measured, on one sealed winter, with the fragility stated" |
 | "A validated bed-occupancy model" | The registered validation **failed** (median error 8.7 percentage points against a 5-point tolerance). The decision layer ships labelled illustrative. | "An illustrative decision layer, with its failed validation stated" |
 | "Endorsed by / in partnership with the NHS" | It is independent work on public data. | "Built on NHS England's published statistics" |
+| "The live forecast predicts 404,000 admissions in January" | It is a central figure (median) with a 90% range of 362,000–451,000, and the model has tended to run low. | "Central forecast 404,000 (90% range 362,000 to 451,000)", with the range always shown |
 | "The hierarchical Bayesian model is well calibrated" | On the sealed window it is the worst of the calibrated candidates: its "90%" intervals cover 97–99%. | "The hierarchical model failed its own calibration test — one of the results that went against the prediction" |
 
 ## 4. Suggested structure
@@ -90,8 +92,10 @@ Six sections. The order matters: the method claim leads, the model zoo does not.
    validation, the hypothesis that turned out untestable.
 5. **The method, for people who want it.** The vintage archive and as-of harness, framed for
    transfer: any series revised after publication (ONS, DWP, HMRC) has this problem.
-6. **The live forecast.** A slot, not yet content: from 31 October 2026 a real forecast for
-   December 2026 to March 2027 is published, and from February 2027 it is scored in public.
+6. **The live forecast.** Now real content: the first forecast, made on 8 October 2026 from
+   the September figures, covers December 2026 to March 2027 and is in the public repository
+   with its publication note. October is scored against the 12 November 2026 release, and the
+   winter months as each is published, from February 2027.
 
 ## 5. The results, with the numbers to put on the page
 
@@ -129,8 +133,26 @@ were opened. On the sealed window its intervals cover 97–98% where 90% is inte
 erring towards over-warning. That is stated with the forecast rather than fixed after the
 fact, because changing the model in response to sealed-window results would contaminate it.
 
-**Scale, for the "how big is this" line:** 501 file versions archived across 118 snapshot
-dates (as at 2026-09-15; corrected on 2026-10-10 from "720", which also counted re-sightings of unchanged files); a panel of 1,072,039 rows covering June 2015 to August 2026; 332 provider codes (about
+**The live forecast, as published** (`docs/live/2026-10_publication_note.md`, England, raw ETS,
+from the 2026-10-08 release). Emergency admissions via A&E, central figure and 90% range:
+
+| | Dec 2026 | Jan 2027 | Feb 2027 | Mar 2027 |
+|---|---|---|---|---|
+| Central | 413,000 | 404,000 | 371,000 | 408,000 |
+| 90% range | 377,000–453,000 | 362,000–451,000 | 329,000–420,000 | 355,000–467,000 |
+| Same month last winter | 405,000 | 402,000 | 362,000 | 410,000 |
+
+Every winter month is within 3% of last winter on all three measures. The note states both
+sides of the model's track record, and the site should too: on the sealed window the ranges
+were too wide (97–98% coverage), but in the development back-tests the model leaned low (60%
+of outturns above the central figure; 6.7% above the 95th percentile against 5% expected). The
+note's advice is to plan against the upper end, not the central figure. The calibration
+evidence is at ICB level; the England and regional ranges are not checked separately.
+
+**Scale, for the "how big is this" line** (as at 2026-10-08; `site/site_numbers.json`): 502
+file versions archived across 119 snapshot dates (stored versions only; an earlier version of
+this brief said 720, which also counted re-sightings of unchanged files); a panel of 1,075,495
+rows covering June 2015 to September 2026; 332 provider codes (about
 195 reporting in any month); 36 ICBs, 7 regions, England; 69 development origins and 19 sealed
 ones; five models; 735 automated tests.
 
@@ -149,12 +171,13 @@ repository root and resolve in both, except where noted.
 | The same, as the run wrote them | `results/H-confirmatory/confirmatory_results.md`, `verdicts.json` |
 | Every number behind a chart | `results/H-confirmatory/tables/*.csv` (one CSV per table and slice) |
 | The pre-registration | `docs/preregistration.md` (§7 is the hypotheses) |
-| The amendment log, readable | `docs/amendment_log.md` (83 entries, generated from §10) |
+| The amendment log, readable | `docs/amendment_log.md` (84 entries, generated from §10) |
 | Development-window results and the model story | `docs/results.md` |
 | The full narrative record of the project | `docs/project_dossier.md` |
 | How the sealed run was designed and policed | `docs/stage_h_design.md`, `docs/confirmatory_plan.md` |
 | The live forecast: how it runs, what ships | `docs/handover.md` §12, `src/nhs_ae/live.py` |
-| The published forecast, once it exists | `forecasts/2026-10/ets/` (and its `manifest.json`) |
+| The published forecast | `forecasts/2026-10/ets/` (`quantiles.parquet`, `manifest.json`) |
+| What the published forecast says, and its limits | `docs/live/2026-10_publication_note.md` |
 | The decision layer and its failed validation | `docs/results.md`, "Stage G", and `results/G-decision/` |
 | Reconciliation and coherence | `results/F-reconciliation/`, `docs/results.md` "Stage F" |
 | What the data source publishes | NHS England, *A&E Attendances and Emergency Admissions* (monthly, public) |
@@ -172,8 +195,8 @@ endorsement.
 | Revision effect, twelve cells | `tables/h4.table.csv` | The point is that everything is near zero; a dot plot on a ±2% axis makes it. |
 | "What one winter buys you": verdicts with an origin dropped | `tables/h3.loo.csv`, `tables/h1.loo.csv` | Honest fragility, and it builds trust. |
 | First published vs revised, for one month | `data/processed/ae_monthly_all_vintages.parquet` | Needs a small script; ask before spending time on it. |
-| Timeline of the 83 amendments | `docs/amendment_log.md` (dates in each entry) | A simple dated strip, showing the plan changing before the data opened. |
-| The live forecast, once published | `forecasts/2026-10/ets/quantiles.parquet` | Fan chart, December–March. Build the slot now, fill it after 31 October. |
+| Timeline of the 84 amendments | `docs/amendment_log.md` (dates in each entry) | A simple dated strip, showing the plan changing before the data opened. |
+| The live forecast | `forecasts/2026-10/ets/quantiles.parquet` (England rows: `level == "england"`) | Fan chart, December–March, 90% range shaded, with last winter's outturn for comparison. Label the line as a central figure, and carry the note's upper-end caveat. |
 
 ## 8. Glossary
 
@@ -205,11 +228,12 @@ worked — the calm is the credibility. Every number on the page should be trace
 
 ## 10. Before you build: ask Ellie
 
-1. Is the repository going public, or does the site link only to a written account? Some
-   figures (the decision layer) carry labels that must travel with them.
-2. The bed-occupancy section: the 92% planning threshold needs its current source confirmed
+Settled since the first version: the repository is public (19 September 2026), so the site
+can link to it. Figures that carry labels (the decision layer) must keep them on the site.
+
+1. The bed-occupancy section: the 92% planning threshold needs its current source confirmed
    before it appears on a public page.
-3. How much of the live forecast should be on the site from 31 October, and who updates it?
-   A public scorecard, updated monthly, is planned but not built.
-4. Naming and attribution: how she wants to be credited, and whether the client-facing memo
+2. How much of the live forecast goes on the site, and who updates it each month? A public
+   scorecard is planned but not built.
+3. Naming and attribution: how she wants to be credited, and whether the client-facing memo
    is public.
